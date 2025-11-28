@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.common.ui.tooltip.TooltipView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/tooltipArrow"
+        android:background="@drawable/ic_tooltip_arrow"
+        android:layout_width="16dp"
+        android:layout_height="8dp"
+        android:backgroundTint="?attr/tcx_brandBackgroundBlue"/>
+    <TextView
+        android:textSize="12sp"
+        android:textColor="?attr/tcx_backgroundPrimary"
+        android:id="@+id/tooltipText"
+        android:background="@drawable/background_tooltip"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/tcx_brandBackgroundBlue"
+        android:letterSpacing="0.01"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</com.truecaller.common.ui.tooltip.TooltipView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background_tcx_activatable_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.truecaller.messaging.linkpreviews.LinkPreviewMessageView
+        android:id="@+id/linkPreviewView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space"
+        android:layout_marginBottom="@dimen/space"
+        android:layout_marginStart="@dimen/doubleSpace"
+        android:layout_marginEnd="@dimen/doubleSpace"/>
+</FrameLayout>

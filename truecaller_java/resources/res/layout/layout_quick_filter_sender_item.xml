@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sender"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checkable="true"
+    android:elevation="0dp"
+    app:cardBackgroundColor="@color/color_filter_chip_background_selector"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp"
+    app:checkedIcon="@null"
+    app:strokeColor="@color/color_filter_chip_stroke_selector"
+    app:strokeWidth="1dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="8dp">
+        <com.truecaller.common.ui.avatar.AvatarXView
+            android:id="@+id/senderIcon"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginHorizontal="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/senderLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <CheckedTextView
+            android:textSize="12sp"
+            android:textColor="@color/color_filter_chip_text_selector"
+            android:id="@+id/senderLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transactions"
+            android:layout_marginHorizontal="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/senderIcon"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

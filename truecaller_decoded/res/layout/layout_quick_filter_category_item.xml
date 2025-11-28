@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkable="true" android:elevation="0.0dip" app:cardBackgroundColor="@color/color_filter_chip_background_selector" app:cardCornerRadius="16.0dip" app:cardElevation="0.0dip" app:checkedIcon="@null" app:strokeColor="@color/color_filter_chip_stroke_selector" app:strokeWidth="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="8.0dip" android:paddingVertical="8.0dip">
+        <CheckedTextView android:textSize="12.0sp" android:textColor="@color/color_filter_chip_text_selector" android:id="@id/categoryLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/transactions" android:drawablePadding="8.0dip" android:drawableStart="@drawable/ic_category_transactions" android:drawableTint="@color/color_filter_chip_icon_selector" android:layout_marginHorizontal="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

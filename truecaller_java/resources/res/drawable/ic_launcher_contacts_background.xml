@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="108dp"
+    android:width="108dp"
+    android:viewportWidth="432"
+    android:viewportHeight="432">
+    <path
+        android:fillColor="@drawable/_ic_launcher_contacts_background__0_res_0x7f080083"
+        android:pathData="M432,0H0V432H432V0Z"/>
+    <path
+        android:fillColor="#0027ff"
+        android:pathData="M226.17,432H432V0H0V270V352C0,372 0,372.5 0,399.58C106.88,300.51 225.68,272.95 226.17,432Z"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0.5,0.5h431v431h-431z"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"/>
+</vector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="12dp"
+    android:width="8dp"
+    android:viewportWidth="8"
+    android:viewportHeight="12">
+    <path
+        android:fillColor="@color/update_notification_icon_color"
+        android:pathData="M6.8571,0H1.1429C0.5143,0 0,0.6 0,1.3333V12L4,10L8,12V1.3333C8,0.6 7.4857,0 6.8571,0Z"/>
+</vector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="?attr/tcx_backgroundPrimary"/>
+            <corners android:radius="@dimen/info_card_radius"/>
+            <stroke
+                android:width="@dimen/truesdk_divider_height"
+                android:color="?attr/tcx_brandBackgroundBlue"/>
+        </shape>
+    </item>
+    <item android:bottom="@dimen/info_footer">
+        <shape android:shape="rectangle">
+            <corners
+                android:radius="@dimen/info_card_radius"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"/>
+            <stroke
+                android:width="@dimen/truesdk_divider_height"
+                android:color="?attr/tcx_brandBackgroundBlue"/>
+        </shape>
+    </item>
+</layer-list>

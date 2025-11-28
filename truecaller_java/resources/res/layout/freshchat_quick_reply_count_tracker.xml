@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/counter_container"
+    android:background="@color/freshchat_white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/freshchat_count_tracket_divider"
+        android:background="@color/freshchat_quick_action_button_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:elevation="4dp"
+        android:outlineSpotShadowColor="@color/freshchat_quick_action_button_divider"/>
+    <TextView
+        android:gravity="center_horizontal"
+        android:id="@+id/count_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/freshchat_count_tracker_count_text"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="14dp"
+        style="?attr/freshchatCounterTextViewStyle"/>
+    <Button
+        android:enabled="false"
+        android:gravity="center"
+        android:id="@+id/submit_button"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/count_textView"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.38"
+        android:layout_marginHorizontal="16dp"
+        style="?attr/freshchatCountTrackerSubmitButtonStyle"/>
+</RelativeLayout>

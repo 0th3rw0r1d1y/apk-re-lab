@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="20sp"
+        android:textColor="?android:attr/textColorSecondary"
+        android:gravity="center_vertical"
+        android:id="@+id/header_text"
+        android:paddingLeft="@dimen/control_double_space"
+        android:paddingRight="@dimen/control_double_space"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/list_header_height"
+        android:text="@string/contacts_list_favourites"
+        android:drawablePadding="@dimen/control_mini_space"
+        app:drawableStartCompat="@drawable/ic_favourite_contacts_favourites_filled_24dp"
+        app:drawableTint="?android:attr/textColorSecondary"
+        app:drawableTintMode="src_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <com.truecaller.contacts_list.ui.view.NoPaddingInsetRecyclerView
+        android:id="@+id/recycler_view_suggested_contacts"
+        android:fadingEdgeLength="32dp"
+        android:clipToPadding="false"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:requiresFadingEdge="horizontal"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_text"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

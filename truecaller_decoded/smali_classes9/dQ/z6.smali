@@ -1,0 +1,184 @@
+.class public final synthetic LdQ/z6;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# instance fields
+.field public final synthetic a:I
+
+.field public final synthetic b:Ljava/lang/Object;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljava/lang/Object;I)V
+    .locals 0
+
+    .line 1
+    iput p2, p0, LdQ/z6;->a:I
+
+    iput-object p1, p0, LdQ/z6;->b:Ljava/lang/Object;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    iget v0, p0, LdQ/z6;->a:I
+
+    .line 2
+    .line 3
+    packed-switch v0, :pswitch_data_0
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object v0, p0, LdQ/z6;->b:Ljava/lang/Object;
+
+    .line 7
+    .line 8
+    check-cast v0, LiQ/d0;
+
+    .line 9
+    .line 10
+    check-cast p1, LVP/f;
+
+    .line 11
+    .line 12
+    const-string v1, "post"
+
+    .line 13
+    .line 14
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 15
+    .line 16
+    .line 17
+    iget-object v1, p1, LVP/f;->a:Ljava/lang/String;
+
+    .line 18
+    .line 19
+    iget-object p1, p1, LVP/f;->c:LVP/e;
+
+    .line 20
+    .line 21
+    iget p1, p1, LVP/e;->b:I
+
+    .line 22
+    .line 23
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-object p1
+
+    .line 27
+    invoke-virtual {v0, p1, v1}, LiQ/d0;->c(Ljava/lang/Integer;Ljava/lang/String;)V
+
+    .line 28
+    .line 29
+    .line 30
+    sget-object p1, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    .line 31
+    .line 32
+    return-object p1
+
+    .line 33
+    :pswitch_0
+    iget-object v0, p0, LdQ/z6;->b:Ljava/lang/Object;
+
+    .line 34
+    .line 35
+    check-cast v0, LlQ/R0;
+
+    .line 36
+    .line 37
+    check-cast p1, LVP/a;
+
+    .line 38
+    .line 39
+    const-string v1, "postDetail"
+
+    .line 40
+    .line 41
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 42
+    .line 43
+    .line 44
+    iget-object v1, p1, LVP/a;->i:LVP/qux;
+
+    .line 45
+    .line 46
+    iget-boolean v1, v1, LVP/qux;->d:Z
+
+    .line 47
+    .line 48
+    if-eqz v1, :cond_0
+
+    .line 49
+    .line 50
+    new-instance v1, LMP/w;
+
+    .line 51
+    .line 52
+    invoke-direct {v1, p1}, LMP/w;-><init>(LVP/a;)V
+
+    .line 53
+    .line 54
+    .line 55
+    invoke-virtual {v0, v1}, LlQ/R0;->w(LhP/bar;)V
+
+    .line 56
+    .line 57
+    .line 58
+    goto :goto_0
+
+    .line 59
+    :cond_0
+    new-instance v1, LMP/y;
+
+    .line 60
+    .line 61
+    invoke-direct {v1, p1}, LMP/y;-><init>(LVP/a;)V
+
+    .line 62
+    .line 63
+    .line 64
+    invoke-virtual {v0, v1}, LlQ/R0;->w(LhP/bar;)V
+
+    .line 65
+    .line 66
+    .line 67
+    :goto_0
+    sget-object p1, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    .line 68
+    .line 69
+    return-object p1
+
+    .line 70
+    nop
+
+    .line 71
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+.end method

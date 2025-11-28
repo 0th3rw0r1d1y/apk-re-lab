@@ -1,0 +1,310 @@
+.class public Lcom/amazon/aps/ads/ApsAdFormatProperties$Builder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/amazon/aps/ads/ApsAdFormatProperties;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Builder"
+.end annotation
+
+
+# instance fields
+.field private playerHeight:I
+
+.field private playerWidth:I
+
+.field private slotInfoExtra:Lcom/amazon/aps/ads/model/ApsSlotInfoExtra;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public static synthetic access$000(Lcom/amazon/aps/ads/ApsAdFormatProperties$Builder;)I
+    .locals 0
+
+    .line 1
+    iget p0, p0, Lcom/amazon/aps/ads/ApsAdFormatProperties$Builder;->playerHeight:I
+
+    .line 2
+    .line 3
+    return p0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+.end method
+
+.method public static synthetic access$100(Lcom/amazon/aps/ads/ApsAdFormatProperties$Builder;)I
+    .locals 0
+
+    .line 1
+    iget p0, p0, Lcom/amazon/aps/ads/ApsAdFormatProperties$Builder;->playerWidth:I
+
+    .line 2
+    .line 3
+    return p0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+.end method
+
+.method public static synthetic access$200(Lcom/amazon/aps/ads/ApsAdFormatProperties$Builder;)Lcom/amazon/aps/ads/model/ApsSlotInfoExtra;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/amazon/aps/ads/ApsAdFormatProperties$Builder;->slotInfoExtra:Lcom/amazon/aps/ads/model/ApsSlotInfoExtra;
+
+    .line 2
+    .line 3
+    return-object p0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+.end method
+
+
+# virtual methods
+.method public build()Lcom/amazon/aps/ads/ApsAdFormatProperties;
+    .locals 2
+
+    .line 1
+    new-instance v0, Lcom/amazon/aps/ads/ApsAdFormatProperties;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, p0, v1}, Lcom/amazon/aps/ads/ApsAdFormatProperties;-><init>(Lcom/amazon/aps/ads/ApsAdFormatProperties$Builder;Lcom/amazon/aps/ads/ApsAdFormatProperties$1;)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-object v0
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public setPlayerHeight(I)Lcom/amazon/aps/ads/ApsAdFormatProperties$Builder;
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lcom/amazon/aps/ads/ApsAdFormatProperties$Builder;->playerHeight:I
+
+    .line 2
+    .line 3
+    return-object p0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+.end method
+
+.method public setPlayerWidth(I)Lcom/amazon/aps/ads/ApsAdFormatProperties$Builder;
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lcom/amazon/aps/ads/ApsAdFormatProperties$Builder;->playerWidth:I
+
+    .line 2
+    .line 3
+    return-object p0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+.end method
+
+.method public setSlotInfoExtra(Lcom/amazon/aps/ads/model/ApsSlotInfoExtra;)Lcom/amazon/aps/ads/ApsAdFormatProperties$Builder;
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/amazon/aps/ads/ApsAdFormatProperties$Builder;->slotInfoExtra:Lcom/amazon/aps/ads/model/ApsSlotInfoExtra;
+
+    .line 2
+    .line 3
+    return-object p0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+.end method

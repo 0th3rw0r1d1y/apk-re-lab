@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/tcx_backgroundPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="@dimen/ads_mega_image_max_height">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/adPrivacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AdInfoText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/StyleX.Widget.Truecaller.TextView.AdInfo"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/iconAdsInfoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/promoted_apps_for_you"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/adPrivacy"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Ads.SuggestedApps.TextView.Heading"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/iconAdsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconAdsInfoTitle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

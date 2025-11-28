@@ -1,0 +1,438 @@
+.class public final enum Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+.super Ljava/lang/Enum;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lio/agora/mediaplayer/Constants;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4019
+    name = "MediaPlayerEvent"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lio/agora/mediaplayer/Constants$MediaPlayerEvent;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final synthetic $VALUES:[Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_AUDIO_TRACK_CHANGED:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_BUFFER_LOW:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_BUFFER_RECOVER:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_FIRST_DISPLAYED:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_FREEZE_START:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_FREEZE_STOP:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_REACH_CACHE_FILE_MAX_COUNT:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_REACH_CACHE_FILE_MAX_SIZE:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_SEEK_BEGIN:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_SEEK_COMPLETE:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_SEEK_ERROR:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_SWITCH_BEGIN:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_SWITCH_COMPLETE:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_SWITCH_ERROR:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_TRY_OPEN_FAILED:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_TRY_OPEN_START:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_TRY_OPEN_SUCCEED:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+.field public static final enum PLAYER_EVENT_UNKNOWN:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+
+# instance fields
+.field private value:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 38
+
+    new-instance v0, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    const/4 v1, -0x1
+
+    const-string v2, "PLAYER_EVENT_UNKNOWN"
+
+    const/4 v3, 0x0
+
+    invoke-direct {v0, v2, v3, v1}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v0, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_UNKNOWN:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v1, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    const-string v2, "PLAYER_EVENT_SEEK_BEGIN"
+
+    const/4 v4, 0x1
+
+    invoke-direct {v1, v2, v4, v3}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v1, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_SEEK_BEGIN:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v2, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    const-string v5, "PLAYER_EVENT_SEEK_COMPLETE"
+
+    const/4 v6, 0x2
+
+    invoke-direct {v2, v5, v6, v4}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v2, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_SEEK_COMPLETE:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v5, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    const-string v7, "PLAYER_EVENT_SEEK_ERROR"
+
+    const/4 v8, 0x3
+
+    invoke-direct {v5, v7, v8, v6}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v5, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_SEEK_ERROR:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v7, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    const-string v9, "PLAYER_EVENT_AUDIO_TRACK_CHANGED"
+
+    const/4 v10, 0x4
+
+    const/4 v11, 0x5
+
+    invoke-direct {v7, v9, v10, v11}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v7, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_AUDIO_TRACK_CHANGED:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v9, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    const-string v12, "PLAYER_EVENT_BUFFER_LOW"
+
+    const/4 v13, 0x6
+
+    invoke-direct {v9, v12, v11, v13}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v9, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_BUFFER_LOW:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v12, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    const-string v14, "PLAYER_EVENT_BUFFER_RECOVER"
+
+    const/4 v15, 0x7
+
+    invoke-direct {v12, v14, v13, v15}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v12, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_BUFFER_RECOVER:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v14, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    move/from16 v16, v3
+
+    const-string v3, "PLAYER_EVENT_FREEZE_START"
+
+    move/from16 v17, v4
+
+    const/16 v4, 0x8
+
+    invoke-direct {v14, v3, v15, v4}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v14, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_FREEZE_START:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v3, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    move/from16 v18, v6
+
+    const-string v6, "PLAYER_EVENT_FREEZE_STOP"
+
+    move/from16 v19, v8
+
+    const/16 v8, 0x9
+
+    invoke-direct {v3, v6, v4, v8}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v3, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_FREEZE_STOP:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v6, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    move/from16 v20, v4
+
+    const-string v4, "PLAYER_EVENT_SWITCH_BEGIN"
+
+    move/from16 v21, v10
+
+    const/16 v10, 0xa
+
+    invoke-direct {v6, v4, v8, v10}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v6, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_SWITCH_BEGIN:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v4, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    move/from16 v22, v8
+
+    const-string v8, "PLAYER_EVENT_SWITCH_COMPLETE"
+
+    move/from16 v23, v11
+
+    const/16 v11, 0xb
+
+    invoke-direct {v4, v8, v10, v11}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v4, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_SWITCH_COMPLETE:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v8, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    move/from16 v24, v10
+
+    const-string v10, "PLAYER_EVENT_SWITCH_ERROR"
+
+    move/from16 v25, v13
+
+    const/16 v13, 0xc
+
+    invoke-direct {v8, v10, v11, v13}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v8, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_SWITCH_ERROR:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v10, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    move/from16 v26, v11
+
+    const-string v11, "PLAYER_EVENT_FIRST_DISPLAYED"
+
+    move/from16 v27, v15
+
+    const/16 v15, 0xd
+
+    invoke-direct {v10, v11, v13, v15}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v10, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_FIRST_DISPLAYED:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v11, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    move/from16 v28, v13
+
+    const-string v13, "PLAYER_EVENT_REACH_CACHE_FILE_MAX_COUNT"
+
+    move-object/from16 v29, v0
+
+    const/16 v0, 0xe
+
+    invoke-direct {v11, v13, v15, v0}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v11, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_REACH_CACHE_FILE_MAX_COUNT:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v13, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    move/from16 v30, v15
+
+    const-string v15, "PLAYER_EVENT_REACH_CACHE_FILE_MAX_SIZE"
+
+    move-object/from16 v31, v1
+
+    const/16 v1, 0xf
+
+    invoke-direct {v13, v15, v0, v1}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v13, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_REACH_CACHE_FILE_MAX_SIZE:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v15, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    move/from16 v32, v0
+
+    const-string v0, "PLAYER_EVENT_TRY_OPEN_START"
+
+    move-object/from16 v33, v2
+
+    const/16 v2, 0x10
+
+    invoke-direct {v15, v0, v1, v2}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v15, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_TRY_OPEN_START:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v0, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    move/from16 v34, v1
+
+    const-string v1, "PLAYER_EVENT_TRY_OPEN_SUCCEED"
+
+    move-object/from16 v35, v3
+
+    const/16 v3, 0x11
+
+    invoke-direct {v0, v1, v2, v3}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v0, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_TRY_OPEN_SUCCEED:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-instance v1, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    move/from16 v36, v2
+
+    const-string v2, "PLAYER_EVENT_TRY_OPEN_FAILED"
+
+    move-object/from16 v37, v0
+
+    const/16 v0, 0x12
+
+    invoke-direct {v1, v2, v3, v0}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;-><init>(Ljava/lang/String;II)V
+
+    sput-object v1, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_TRY_OPEN_FAILED:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    new-array v0, v0, [Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    aput-object v29, v0, v16
+
+    aput-object v31, v0, v17
+
+    aput-object v33, v0, v18
+
+    aput-object v5, v0, v19
+
+    aput-object v7, v0, v21
+
+    aput-object v9, v0, v23
+
+    aput-object v12, v0, v25
+
+    aput-object v14, v0, v27
+
+    aput-object v35, v0, v20
+
+    aput-object v6, v0, v22
+
+    aput-object v4, v0, v24
+
+    aput-object v8, v0, v26
+
+    aput-object v10, v0, v28
+
+    aput-object v11, v0, v30
+
+    aput-object v13, v0, v32
+
+    aput-object v15, v0, v34
+
+    aput-object v37, v0, v36
+
+    aput-object v1, v0, v3
+
+    sput-object v0, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->$VALUES:[Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;II)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    iput p3, p0, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->value:I
+
+    return-void
+.end method
+
+.method public static fromNativeIndex(I)Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+    .locals 0
+    .annotation build Lio/agora/base/internal/CalledByNative;
+        value = "MediaPlayerEvent"
+    .end annotation
+
+    invoke-static {p0}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->getEventByValue(I)Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static getEventByValue(I)Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+    .locals 5
+
+    invoke-static {}, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->values()[Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    move-result-object v0
+
+    array-length v1, v0
+
+    const/4 v2, 0x0
+
+    :goto_0
+    if-ge v2, v1, :cond_1
+
+    aget-object v3, v0, v2
+
+    iget v4, v3, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->value:I
+
+    if-ne v4, p0, :cond_0
+
+    return-object v3
+
+    :cond_0
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    sget-object p0, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->PLAYER_EVENT_UNKNOWN:Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    return-object p0
+.end method
+
+.method public static getValue(Lio/agora/mediaplayer/Constants$MediaPlayerEvent;)I
+    .locals 0
+
+    iget p0, p0, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->value:I
+
+    return p0
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+    .locals 1
+
+    const-class v0, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    move-result-object p0
+
+    check-cast p0, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    return-object p0
+.end method
+
+.method public static values()[Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+    .locals 1
+
+    sget-object v0, Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->$VALUES:[Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    invoke-virtual {v0}, [Lio/agora/mediaplayer/Constants$MediaPlayerEvent;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lio/agora/mediaplayer/Constants$MediaPlayerEvent;
+
+    return-object v0
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:tag="@string/jio_native_carousel_image" android:layout_width="100.0dip" android:layout_height="120.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/jio_black" android:tag="@string/jio_native_carousel_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginHorizontal="12.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/jio_black" android:tag="@string/jio_native_carousel_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginHorizontal="12.0dip" />
+</LinearLayout>

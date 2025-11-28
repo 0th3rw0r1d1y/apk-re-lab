@@ -1,0 +1,149 @@
+.class public final LNY/bar;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LrM/qux;
+
+
+# annotations
+.annotation runtime Ljavax/inject/Singleton;
+.end annotation
+
+
+# instance fields
+.field public final a:Lcom/truecaller/whoviewedme/b;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+.field public final b:Lcom/truecaller/premium/ui/banner/displaycondition/BannerDisplayCondition;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lcom/truecaller/whoviewedme/b;)V
+    .locals 1
+    .param p1    # Lcom/truecaller/whoviewedme/b;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation runtime Ljavax/inject/Inject;
+    .end annotation
+
+    .line 1
+    const-string v0, "whoViewedMeManager"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 7
+    .line 8
+    .line 9
+    iput-object p1, p0, LNY/bar;->a:Lcom/truecaller/whoviewedme/b;
+
+    .line 10
+    .line 11
+    sget-object p1, Lcom/truecaller/premium/ui/banner/displaycondition/BannerDisplayCondition;->VIEW_PROFILE_PRIVATE:Lcom/truecaller/premium/ui/banner/displaycondition/BannerDisplayCondition;
+
+    .line 12
+    .line 13
+    iput-object p1, p0, LNY/bar;->b:Lcom/truecaller/premium/ui/banner/displaycondition/BannerDisplayCondition;
+
+    .line 14
+    .line 15
+    return-void
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+.end method
+
+
+# virtual methods
+.method public final a()Ljava/lang/Boolean;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/Nullable;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, LNY/bar;->a:Lcom/truecaller/whoviewedme/b;
+
+    .line 2
+    .line 3
+    invoke-interface {v0}, Lcom/truecaller/whoviewedme/b;->d()Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    xor-int/lit8 v0, v0, 0x1
+
+    .line 8
+    .line 9
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    return-object v0
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public final b()Lcom/truecaller/premium/ui/banner/displaycondition/BannerDisplayCondition;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, LNY/bar;->b:Lcom/truecaller/premium/ui/banner/displaycondition/BannerDisplayCondition;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Edit IM history size"/>
+    <EditText
+        android:id="@+id/batch_size_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Count of events in 1 batch"
+        android:inputType="numberDecimal"/>
+    <EditText
+        android:id="@+id/total_size_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total count of messages"
+        android:inputType="numberDecimal"/>
+    <Button
+        android:textColor="#ffffff"
+        android:id="@+id/apply_sizes_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APPLY"/>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.ads.ui.AdsContainer xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:id="@+id/adsContainer"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardBackgroundColor="?attr/tcx_backgroundPrimary"
+    app:cardCornerRadius="@dimen/control_space"
+    app:cardElevation="0dp"
+    app:containerMaxHeight="@dimen/ads_container_small_max_height"
+    app:contentPadding="1dp"
+    app:strokeColor="?attr/tcx_fillQuarternaryBackground"
+    app:strokeWidth="1dp"/>

@@ -1,0 +1,10 @@
+package com.bumptech.glide.manager;
+
+import androidx.annotation.NonNull;
+
+/* loaded from: classes3.dex */
+public interface g {
+    void a(@NonNull i iVar);
+
+    void b(@NonNull i iVar);
+}

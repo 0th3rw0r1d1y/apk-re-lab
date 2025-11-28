@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.common.ui.banner.BannerViewX xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bannerView"
+    android:background="@drawable/background_tcx_caller_id_banner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    app:bannerViewImageHeight="18dp"
+    app:bannerViewImageWidth="18dp"
+    app:bannerViewPrimaryButton="@string/dialer_enable"
+    app:bannerViewSubtitle="@string/dialer_promo_dooa_banner_subtitle"
+    app:bannerViewSubtitleLinkify="true"
+    app:bannerViewTitle="@string/dialer_promo_caller_id_banner_title"/>

@@ -1,0 +1,11 @@
+package Fj;
+
+/* loaded from: classes7.dex */
+public final class g {
+
+    /* renamed from: a, reason: collision with root package name */
+    public static final /* synthetic */ int f18814a = 0;
+
+    /* renamed from: b, reason: collision with root package name */
+    public static final /* synthetic */ int f18815b = 0;
+}

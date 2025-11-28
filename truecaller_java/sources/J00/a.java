@@ -1,0 +1,7 @@
+package J00;
+
+/* loaded from: classes10.dex */
+public final /* synthetic */ class a {
+    public static /* synthetic */ void a() {
+    }
+}

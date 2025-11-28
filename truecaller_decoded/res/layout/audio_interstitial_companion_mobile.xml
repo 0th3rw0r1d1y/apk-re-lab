@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/jio_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/default_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/jio_audio_portrait_default" android:layout_centerInParent="true" />
+    <TextView android:id="@id/default_close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/jio_close_advertisement_video" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

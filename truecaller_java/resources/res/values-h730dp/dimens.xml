@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="acs_action_button_vertical_margin">8dp</dimen>
+    <dimen name="acs_action_container_bottom_margin">10dp</dimen>
+    <dimen name="acs_action_container_bottom_margin_ratio">4</dimen>
+    <dimen name="acs_action_container_height">48dp</dimen>
+    <dimen name="acs_action_icon_size">24dp</dimen>
+    <dimen name="acs_action_name_text_size">12sp</dimen>
+    <dimen name="acs_action_promo_text_size">8sp</dimen>
+    <dimen name="acs_action_promo_text_view_height">16dp</dimen>
+    <dimen name="acs_action_promo_text_view_width">28dp</dimen>
+    <dimen name="acs_action_promo_top_margin">2dp</dimen>
+    <dimen name="ads_full_screen_native_max_height">438dp</dimen>
+    <dimen name="fullscreen_acs_alt_name_font_size">14sp</dimen>
+    <dimen name="fullscreen_acs_caller_label_font_size">12sp</dimen>
+    <dimen name="fullscreen_acs_caller_label_height">24dp</dimen>
+    <dimen name="fullscreen_acs_caller_label_radius">12dp</dimen>
+    <dimen name="fullscreen_acs_close_button_size">32dp</dimen>
+    <dimen name="fullscreen_acs_name_font_size">28sp</dimen>
+    <dimen name="fullscreen_acs_name_font_size_ratio">1.14</dimen>
+    <dimen name="fullscreen_acs_profile_image_size">76dp</dimen>
+    <dimen name="fullscreen_acs_profile_image_size_ratio">1.65</dimen>
+    <dimen name="fullscreen_acs_profile_image_top_margin_ratio">8.66</dimen>
+    <dimen name="fullscreen_acs_top_margin">8dp</dimen>
+    <dimen name="fullscreen_acs_unknown_name_font_size">24sp</dimen>
+    <dimen name="fullscreen_label_font_size">14sp</dimen>
+    <dimen name="fullscreen_view_profile_bottom_margin">12dp</dimen>
+    <dimen name="fullscreen_view_profile_bottom_margin_ratio">5.83</dimen>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="?attr/freshchatOpinionBackgroundStyle">
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/rating_bar_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/freshchat_rating_feedback_rate_us"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        style="?attr/freshchatRateUsTextStyle"/>
+    <RatingBar
+        android:layout_gravity="center"
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        style="?attr/freshChatRatingBar"/>
+    <Button
+        android:enabled="false"
+        android:id="@+id/rating_bar_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/freshchat_opinion_poll_select"
+        android:alpha="0.38"
+        style="?attr/freshchatRatingFeedbackSelectButtonStyle"/>
+</LinearLayout>

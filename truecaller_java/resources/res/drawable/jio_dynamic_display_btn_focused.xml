@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/jio_dynamic_display_button"
+        android:endColor="@color/jio_dynamic_display_button"
+        android:angle="270"
+        android:centerColor="@color/jio_dynamic_display_button"/>
+    <corners android:radius="6dp"/>
+</shape>

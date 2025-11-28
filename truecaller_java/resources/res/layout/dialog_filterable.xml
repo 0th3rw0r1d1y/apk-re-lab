@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="?attr/tc_color_containerFillCustom"
+    android:padding="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="16sp"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/roboto_medium"
+        style="@style/FilterableDialog.Title"/>
+    <EditText
+        android:id="@+id/editor"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        style="@style/FilterableDialog.Filter"/>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

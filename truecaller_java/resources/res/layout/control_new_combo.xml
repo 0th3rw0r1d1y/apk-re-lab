@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/selectableItemBackground"
+    android:paddingTop="5dp"
+    android:paddingBottom="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="4dp"
+    android:paddingEnd="4dp">
+    <TextView
+        android:ellipsize="end"
+        android:id="@+id/listItemDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:layout_marginStart="1dp"
+        android:layout_toStartOf="@+id/dropdown_icon"
+        style="@style/StyleX.Text.Body.B2"/>
+    <ImageView
+        android:id="@+id/dropdown_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/AppName"
+        android:layout_marginEnd="8dp"
+        android:layout_alignParentEnd="true"/>
+    <View
+        android:background="?attr/tcx_textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/listItemDetails"/>
+</RelativeLayout>

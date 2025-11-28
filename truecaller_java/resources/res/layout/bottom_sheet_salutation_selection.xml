@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bottom_sheet_rounded_corner_background"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="?attr/tcx_backgroundTertiary">
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/salutationTitle"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/PremiumInsuranceSalutationHint"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/StyleX.Text.Subtitle.S1.Medium"/>
+    <TextView
+        android:id="@+id/salutationMr"
+        android:text="@string/SalutationMr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salutationTitle"
+        style="@style/bottomsheetOptionItem"/>
+    <TextView
+        android:id="@+id/salutationMrs"
+        android:text="@string/SalutationMrs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salutationMr"
+        style="@style/bottomsheetOptionItem"/>
+    <TextView
+        android:id="@+id/salutationMs"
+        android:text="@string/SalutationMs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salutationMrs"
+        style="@style/bottomsheetOptionItem"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

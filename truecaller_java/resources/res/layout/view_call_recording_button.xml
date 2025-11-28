@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/call_recording_animation_size">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/call_recording_start_button"
+        android:layout_width="@dimen/call_recording_button_size"
+        android:layout_height="@dimen/call_recording_button_size"
+        android:src="@drawable/selector_call_recording_button"
+        android:scaleType="centerInside"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tintMode="src_in"/>
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/call_recording_ongoing_animation"
+        android:visibility="invisible"
+        android:layout_width="@dimen/call_recording_animation_size"
+        android:layout_height="@dimen/call_recording_animation_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/call_recording_ongoing_animation"/>
+    <FrameLayout
+        android:id="@+id/call_recording_button_clickable_area"
+        android:layout_width="@dimen/call_recording_button_size"
+        android:layout_height="@dimen/call_recording_button_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

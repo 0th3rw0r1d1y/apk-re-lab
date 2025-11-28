@@ -1,0 +1,158 @@
+.class abstract Lcom/ctc/wstx/shaded/msv_core/reader/relax/LabelRefState;
+.super Lcom/ctc/wstx/shaded/msv_core/reader/ExpressionWithoutChildState;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/ctc/wstx/shaded/msv_core/reader/ExpressionWithoutChildState;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+
+# virtual methods
+.method public makeExpression()Lcom/ctc/wstx/shaded/msv_core/grammar/Expression;
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lcom/ctc/wstx/shaded/msv_core/reader/State;->startTag:Lcom/ctc/wstx/shaded/msv_core/util/StartTagInfo;
+
+    .line 2
+    .line 3
+    const-string v1, "label"
+
+    .line 4
+    .line 5
+    invoke-virtual {v0, v1}, Lcom/ctc/wstx/shaded/msv_core/util/StartTagInfo;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    iget-object v2, p0, Lcom/ctc/wstx/shaded/msv_core/reader/State;->startTag:Lcom/ctc/wstx/shaded/msv_core/util/StartTagInfo;
+
+    .line 10
+    .line 11
+    const-string v3, "namespace"
+
+    .line 12
+    .line 13
+    invoke-virtual {v2, v3}, Lcom/ctc/wstx/shaded/msv_core/util/StartTagInfo;->getAttribute(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v2
+
+    .line 17
+    iget-object v3, p0, Lcom/ctc/wstx/shaded/msv_core/reader/State;->reader:Lcom/ctc/wstx/shaded/msv_core/reader/GrammarReader;
+
+    .line 18
+    .line 19
+    check-cast v3, Lcom/ctc/wstx/shaded/msv_core/reader/relax/RELAXReader;
+
+    .line 20
+    .line 21
+    if-nez v0, :cond_0
+
+    .line 22
+    .line 23
+    iget-object v0, p0, Lcom/ctc/wstx/shaded/msv_core/reader/State;->startTag:Lcom/ctc/wstx/shaded/msv_core/util/StartTagInfo;
+
+    .line 24
+    .line 25
+    iget-object v0, v0, Lcom/ctc/wstx/shaded/msv_core/util/StartTagInfo;->localName:Ljava/lang/String;
+
+    .line 26
+    .line 27
+    const-string v2, "GrammarReader.MissingAttribute"
+
+    .line 28
+    .line 29
+    invoke-virtual {v3, v2, v0, v1}, Lcom/ctc/wstx/shaded/msv_core/reader/GrammarReader;->reportError(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 30
+    .line 31
+    .line 32
+    sget-object v0, Lcom/ctc/wstx/shaded/msv_core/grammar/Expression;->nullSet:Lcom/ctc/wstx/shaded/msv_core/grammar/Expression;
+
+    .line 33
+    .line 34
+    return-object v0
+
+    .line 35
+    :cond_0
+    invoke-virtual {p0, v2, v0}, Lcom/ctc/wstx/shaded/msv_core/reader/relax/LabelRefState;->resolve(Ljava/lang/String;Ljava/lang/String;)Lcom/ctc/wstx/shaded/msv_core/grammar/Expression;
+
+    .line 36
+    .line 37
+    .line 38
+    move-result-object v0
+
+    .line 39
+    return-object v0
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+.end method
+
+.method public abstract resolve(Ljava/lang/String;Ljava/lang/String;)Lcom/ctc/wstx/shaded/msv_core/grammar/Expression;
+.end method

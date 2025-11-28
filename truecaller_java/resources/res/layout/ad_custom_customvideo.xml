@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.truecaller.ads.ui.VideoFrame
+        android:id="@+id/custom_ad_media_frame"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"/>
+    <com.truecaller.ads.ui.CtaButtonX
+        android:textStyle="bold"
+        android:layout_gravity="end|bottom"
+        android:id="@+id/more_url"
+        android:layout_margin="@dimen/control_space"
+        style="@style/StyleX.Widget.Truecaller.Button.Ad.Compact"/>
+</FrameLayout>

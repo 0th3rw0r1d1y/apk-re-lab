@@ -1,0 +1,21 @@
+.class public final synthetic Ljb/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcb/b;
+
+
+# virtual methods
+.method public final create(Lcb/qux;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcb/A;
+
+    invoke-static {p1}, Lcom/google/firebase/dynamiclinks/internal/FirebaseDynamicLinkRegistrar;->a(Lcb/A;)Lib/bar;
+
+    move-result-object p1
+
+    return-object p1
+.end method

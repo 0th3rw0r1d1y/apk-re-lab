@@ -1,0 +1,7 @@
+package Ei;
+
+import com.google.protobuf.MessageLiteOrBuilder;
+
+/* loaded from: classes7.dex */
+public interface d extends MessageLiteOrBuilder {
+}

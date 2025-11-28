@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/ic_who_viewed_img"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/wvm_image_large"
+        android:contentDescription="@null"
+        app:layout_constraintBottom_toTopOf="@+id/profile_view_count_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/profile_view_count_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/NoProfileViewsPremium"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/upgrade_premium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_who_viewed_img"
+        style="@style/StyleX.Text.Headline.H6"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/upgrade_premium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/NoProfileViewsSubtitlePremium"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_view_count_desc"
+        style="@style/StyleX.Text.Body.B2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

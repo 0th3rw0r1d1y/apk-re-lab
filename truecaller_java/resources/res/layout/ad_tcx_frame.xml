@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:id="@+id/container"
+    android:background="?attr/tcx_backgroundPrimary"
+    android:clipToPadding="false"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/control_enneaspace"
+    android:paddingStart="8dp"
+    android:paddingEnd="12dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"/>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/reaction_bar_container"
+    android:background="?attr/tcx_conversationInputBarBackground"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/reaction_bar"
+        android:padding="@dimen/spacing_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:id="@+id/reactionBarDivider"
+        android:background="?attr/tc_color_bottomBarDividerColor"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bottom_sheet_rounded_corner_background"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="?attr/tcx_backgroundTertiary">
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/genderTitle"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/editprofile_profile_edit_gender"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/StyleX.Text.Subtitle.S1.Medium"/>
+    <TextView
+        android:id="@+id/genderNeutral"
+        android:text="@string/editprofile_profile_edit_gender_neutral"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genderTitle"
+        style="@style/genderSelectionOption"/>
+    <TextView
+        android:id="@+id/genderMale"
+        android:text="@string/editprofile_profile_edit_gender_male"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genderNeutral"
+        style="@style/genderSelectionOption"/>
+    <TextView
+        android:id="@+id/genderFemale"
+        android:text="@string/editprofile_profile_edit_gender_female"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genderMale"
+        style="@style/genderSelectionOption"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

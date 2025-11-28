@@ -1,0 +1,270 @@
+.class final Lcom/unity3d/services/core/di/ServiceProvider$initialize$1$68;
+.super Lkotlin/jvm/internal/q;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/unity3d/services/core/di/ServiceProvider$initialize$1;->invoke(Lcom/unity3d/services/core/di/ServicesRegistry;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/q;",
+        "Lkotlin/jvm/functions/Function0<",
+        "Lcom/unity3d/ads/core/data/manager/TransactionEventManager;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0008\n\u0000\n\u0002\u0018\u0002\n\u0000\u0010\u0000\u001a\u00020\u0001H\n\u00a2\u0006\u0002\u0008\u0002"
+    }
+    d2 = {
+        "<anonymous>",
+        "Lcom/unity3d/ads/core/data/manager/TransactionEventManager;",
+        "invoke"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic $this_registry:Lcom/unity3d/services/core/di/ServicesRegistry;
+
+
+# direct methods
+.method public constructor <init>(Lcom/unity3d/services/core/di/ServicesRegistry;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/unity3d/services/core/di/ServiceProvider$initialize$1$68;->$this_registry:Lcom/unity3d/services/core/di/ServicesRegistry;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/q;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Lcom/unity3d/ads/core/data/manager/TransactionEventManager;
+    .locals 12
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 2
+    new-instance v0, Lcom/unity3d/ads/core/data/manager/TransactionEventManager;
+
+    .line 3
+    iget-object v1, p0, Lcom/unity3d/services/core/di/ServiceProvider$initialize$1$68;->$this_registry:Lcom/unity3d/services/core/di/ServicesRegistry;
+
+    .line 4
+    new-instance v2, Lcom/unity3d/services/core/di/ServiceKey;
+
+    .line 5
+    sget-object v3, Lkotlin/jvm/internal/M;->a:Lkotlin/jvm/internal/N;
+
+    const-class v4, Lkotlinx/coroutines/H;
+
+    invoke-virtual {v3, v4}, Lkotlin/jvm/internal/N;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v4
+
+    .line 6
+    const-string v5, "transaction_scope"
+
+    invoke-direct {v2, v5, v4}, Lcom/unity3d/services/core/di/ServiceKey;-><init>(Ljava/lang/String;Lkotlin/reflect/KClass;)V
+
+    .line 7
+    invoke-virtual {v1, v2}, Lcom/unity3d/services/core/di/ServicesRegistry;->resolveService(Lcom/unity3d/services/core/di/ServiceKey;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lkotlinx/coroutines/H;
+
+    .line 8
+    iget-object v2, p0, Lcom/unity3d/services/core/di/ServiceProvider$initialize$1$68;->$this_registry:Lcom/unity3d/services/core/di/ServicesRegistry;
+
+    .line 9
+    new-instance v4, Lcom/unity3d/services/core/di/ServiceKey;
+
+    const-class v5, Lcom/unity3d/services/store/StoreMonitor;
+
+    .line 10
+    invoke-virtual {v3, v5}, Lkotlin/jvm/internal/N;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v5
+
+    .line 11
+    const-string v6, ""
+
+    invoke-direct {v4, v6, v5}, Lcom/unity3d/services/core/di/ServiceKey;-><init>(Ljava/lang/String;Lkotlin/reflect/KClass;)V
+
+    .line 12
+    invoke-virtual {v2, v4}, Lcom/unity3d/services/core/di/ServicesRegistry;->resolveService(Lcom/unity3d/services/core/di/ServiceKey;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/unity3d/services/store/StoreMonitor;
+
+    .line 13
+    iget-object v4, p0, Lcom/unity3d/services/core/di/ServiceProvider$initialize$1$68;->$this_registry:Lcom/unity3d/services/core/di/ServicesRegistry;
+
+    .line 14
+    new-instance v5, Lcom/unity3d/services/core/di/ServiceKey;
+
+    const-class v7, Lcom/unity3d/ads/core/domain/events/GetTransactionData;
+
+    .line 15
+    invoke-virtual {v3, v7}, Lkotlin/jvm/internal/N;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v7
+
+    .line 16
+    invoke-direct {v5, v6, v7}, Lcom/unity3d/services/core/di/ServiceKey;-><init>(Ljava/lang/String;Lkotlin/reflect/KClass;)V
+
+    .line 17
+    invoke-virtual {v4, v5}, Lcom/unity3d/services/core/di/ServicesRegistry;->resolveService(Lcom/unity3d/services/core/di/ServiceKey;)Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lcom/unity3d/ads/core/domain/events/GetTransactionData;
+
+    .line 18
+    iget-object v5, p0, Lcom/unity3d/services/core/di/ServiceProvider$initialize$1$68;->$this_registry:Lcom/unity3d/services/core/di/ServicesRegistry;
+
+    .line 19
+    new-instance v7, Lcom/unity3d/services/core/di/ServiceKey;
+
+    const-class v8, Lcom/unity3d/ads/core/domain/events/GetTransactionRequest;
+
+    .line 20
+    invoke-virtual {v3, v8}, Lkotlin/jvm/internal/N;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v8
+
+    .line 21
+    invoke-direct {v7, v6, v8}, Lcom/unity3d/services/core/di/ServiceKey;-><init>(Ljava/lang/String;Lkotlin/reflect/KClass;)V
+
+    .line 22
+    invoke-virtual {v5, v7}, Lcom/unity3d/services/core/di/ServicesRegistry;->resolveService(Lcom/unity3d/services/core/di/ServiceKey;)Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Lcom/unity3d/ads/core/domain/events/GetTransactionRequest;
+
+    .line 23
+    iget-object v7, p0, Lcom/unity3d/services/core/di/ServiceProvider$initialize$1$68;->$this_registry:Lcom/unity3d/services/core/di/ServicesRegistry;
+
+    .line 24
+    new-instance v8, Lcom/unity3d/services/core/di/ServiceKey;
+
+    const-class v9, Lcom/unity3d/ads/core/data/repository/TransactionEventRepository;
+
+    .line 25
+    invoke-virtual {v3, v9}, Lkotlin/jvm/internal/N;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v9
+
+    .line 26
+    invoke-direct {v8, v6, v9}, Lcom/unity3d/services/core/di/ServiceKey;-><init>(Ljava/lang/String;Lkotlin/reflect/KClass;)V
+
+    .line 27
+    invoke-virtual {v7, v8}, Lcom/unity3d/services/core/di/ServicesRegistry;->resolveService(Lcom/unity3d/services/core/di/ServiceKey;)Ljava/lang/Object;
+
+    move-result-object v7
+
+    check-cast v7, Lcom/unity3d/ads/core/data/repository/TransactionEventRepository;
+
+    .line 28
+    iget-object v8, p0, Lcom/unity3d/services/core/di/ServiceProvider$initialize$1$68;->$this_registry:Lcom/unity3d/services/core/di/ServicesRegistry;
+
+    .line 29
+    new-instance v9, Lcom/unity3d/services/core/di/ServiceKey;
+
+    const-class v10, Lcom/unity3d/ads/core/data/datasource/ByteStringDataSource;
+
+    .line 30
+    invoke-virtual {v3, v10}, Lkotlin/jvm/internal/N;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v10
+
+    .line 31
+    const-string v11, "iap_transaction.pb"
+
+    invoke-direct {v9, v11, v10}, Lcom/unity3d/services/core/di/ServiceKey;-><init>(Ljava/lang/String;Lkotlin/reflect/KClass;)V
+
+    .line 32
+    invoke-virtual {v8, v9}, Lcom/unity3d/services/core/di/ServicesRegistry;->resolveService(Lcom/unity3d/services/core/di/ServiceKey;)Ljava/lang/Object;
+
+    move-result-object v8
+
+    check-cast v8, Lcom/unity3d/ads/core/data/datasource/ByteStringDataSource;
+
+    .line 33
+    iget-object v9, p0, Lcom/unity3d/services/core/di/ServiceProvider$initialize$1$68;->$this_registry:Lcom/unity3d/services/core/di/ServicesRegistry;
+
+    .line 34
+    new-instance v10, Lcom/unity3d/services/core/di/ServiceKey;
+
+    const-class v11, Lcom/unity3d/ads/core/domain/SendDiagnosticEvent;
+
+    .line 35
+    invoke-virtual {v3, v11}, Lkotlin/jvm/internal/N;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v3
+
+    .line 36
+    invoke-direct {v10, v6, v3}, Lcom/unity3d/services/core/di/ServiceKey;-><init>(Ljava/lang/String;Lkotlin/reflect/KClass;)V
+
+    .line 37
+    invoke-virtual {v9, v10}, Lcom/unity3d/services/core/di/ServicesRegistry;->resolveService(Lcom/unity3d/services/core/di/ServiceKey;)Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Lcom/unity3d/ads/core/domain/SendDiagnosticEvent;
+
+    move-object v6, v7
+
+    move-object v7, v3
+
+    move-object v3, v4
+
+    move-object v4, v5
+
+    move-object v5, v6
+
+    move-object v6, v8
+
+    .line 38
+    invoke-direct/range {v0 .. v7}, Lcom/unity3d/ads/core/data/manager/TransactionEventManager;-><init>(Lkotlinx/coroutines/H;Lcom/unity3d/services/store/StoreMonitor;Lcom/unity3d/ads/core/domain/events/GetTransactionData;Lcom/unity3d/ads/core/domain/events/GetTransactionRequest;Lcom/unity3d/ads/core/data/repository/TransactionEventRepository;Lcom/unity3d/ads/core/data/datasource/ByteStringDataSource;Lcom/unity3d/ads/core/domain/SendDiagnosticEvent;)V
+
+    return-object v0
+.end method
+
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/unity3d/services/core/di/ServiceProvider$initialize$1$68;->invoke()Lcom/unity3d/ads/core/data/manager/TransactionEventManager;
+
+    move-result-object v0
+
+    return-object v0
+.end method

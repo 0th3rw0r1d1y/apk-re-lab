@@ -1,0 +1,44 @@
+package io.agora.base.internal.video;
+
+import android.media.MediaCodec;
+import android.media.MediaCodecInfo;
+import android.media.MediaCrypto;
+import android.media.MediaFormat;
+import android.os.Bundle;
+import android.view.Surface;
+import androidx.annotation.Nullable;
+import java.nio.ByteBuffer;
+
+/* loaded from: classes10.dex */
+interface MediaCodecWrapper {
+    void configure(MediaFormat mediaFormat, Surface surface, MediaCrypto mediaCrypto, int i11);
+
+    Surface createInputSurface();
+
+    int dequeueInputBuffer(long j11);
+
+    int dequeueOutputBuffer(MediaCodec.BufferInfo bufferInfo, long j11);
+
+    void flush();
+
+    @Nullable
+    MediaCodecInfo.CodecCapabilities getCodecInfo(String str);
+
+    ByteBuffer[] getInputBuffers();
+
+    ByteBuffer[] getOutputBuffers();
+
+    MediaFormat getOutputFormat();
+
+    void queueInputBuffer(int i11, int i12, int i13, long j11, int i14);
+
+    void release();
+
+    void releaseOutputBuffer(int i11, boolean z11);
+
+    void setParameters(Bundle bundle);
+
+    void start();
+
+    void stop();
+}

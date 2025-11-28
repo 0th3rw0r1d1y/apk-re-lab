@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progressbar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MyProgressBar" />
+    <RelativeLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/progressbar">
+        <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/close_button" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/jio_close_advertisement_video" android:layout_alignParentRight="true" android:layout_marginEnd="5.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

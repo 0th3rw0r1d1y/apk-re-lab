@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.ads.ui.AdsContainer android:layout_gravity="center" android:id="@id/adsMvpContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="?tcx_backgroundPrimary" app:cardCornerRadius="@dimen/control_space" app:cardElevation="0.0dip" app:contentPadding="1.0dip" />
+    <FrameLayout android:id="@id/adPlaceHolder" android:background="?tcx_backgroundPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

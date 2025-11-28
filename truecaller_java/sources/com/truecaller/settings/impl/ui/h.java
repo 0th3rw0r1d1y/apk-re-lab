@@ -1,0 +1,8 @@
+package com.truecaller.settings.impl.ui;
+
+/* loaded from: classes9.dex */
+public final class h {
+
+    /* renamed from: a, reason: collision with root package name */
+    public static final /* synthetic */ int f149570a = 0;
+}

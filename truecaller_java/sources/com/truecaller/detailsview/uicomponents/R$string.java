@@ -1,0 +1,5 @@
+package com.truecaller.detailsview.uicomponents;
+
+/* loaded from: classes8.dex */
+public final class R$string {
+}

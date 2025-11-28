@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/otpContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/remote_view_include_otp_message"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Material.Notification.Subtitle"
+        android:id="@+id/labelConfidential"
+        android:background="@drawable/otp_disclaimer_background"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/otp_notification_confidential_message"
+        android:drawablePadding="4dp"
+        android:lineSpacingExtra="0dp"
+        android:drawableStart="@drawable/ic_otp_disclaimer"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:layout_marginStart="52dp"/>
+</LinearLayout>

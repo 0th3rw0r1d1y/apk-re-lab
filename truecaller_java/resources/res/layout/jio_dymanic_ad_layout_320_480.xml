@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/jio_black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/fb_media_view"
+            android:tag="@string/jio_native_media_layout"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:textSize="14sp"
+            android:textColor="@color/jio_black"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@+id/jio_tv_desc"
+            android:tag="@string/jio_native_description"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:maxLines="2"
+            android:layout_weight="0.2"/>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2">
+            <Button
+                android:ellipsize="end"
+                android:id="@+id/jio_cta"
+                android:tag="@string/jio_native_cta"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="16dp"
+                android:text="Install Now"
+                android:lines="1"
+                android:textAlignment="center"
+                style="@style/style_jio_button_infeed"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

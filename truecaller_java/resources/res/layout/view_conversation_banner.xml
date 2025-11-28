@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="12sp"
+    android:textColor="?attr/tcx_textSecondary"
+    android:gravity="center_vertical"
+    android:paddingTop="@dimen/space"
+    android:paddingBottom="@dimen/space"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="40dp"
+    android:drawablePadding="@dimen/space"
+    android:paddingStart="@dimen/doubleSpace"
+    android:paddingEnd="@dimen/doubleSpace"/>

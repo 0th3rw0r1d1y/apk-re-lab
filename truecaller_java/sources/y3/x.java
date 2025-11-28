@@ -1,0 +1,7 @@
+package y3;
+
+/* loaded from: classes.dex */
+public final /* synthetic */ class x {
+    public static /* synthetic */ void a() {
+    }
+}

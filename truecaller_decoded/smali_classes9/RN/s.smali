@@ -1,0 +1,80 @@
+.class public final synthetic LRN/s;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# instance fields
+.field public final synthetic a:LRN/V;
+
+
+# direct methods
+.method public synthetic constructor <init>(LRN/V;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LRN/s;->a:LRN/V;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 3
+
+    .line 1
+    check-cast p1, LKN/h;
+
+    .line 2
+    .line 3
+    const-string v0, "$this$section"
+
+    .line 4
+    .line 5
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    new-instance v0, LRN/K;
+
+    .line 9
+    .line 10
+    const/4 v1, 0x0
+
+    .line 11
+    iget-object v2, p0, LRN/s;->a:LRN/V;
+
+    .line 12
+    .line 13
+    invoke-direct {v0, v2, v1}, LRN/K;-><init>(LRN/V;Lk20/baz;)V
+
+    .line 14
+    .line 15
+    .line 16
+    const-string v1, "Trigger test event (tc_wizard_getstarted)"
+
+    .line 17
+    .line 18
+    invoke-virtual {p1, v1, v0}, LKN/h;->b(Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
+
+    .line 19
+    .line 20
+    .line 21
+    sget-object p1, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    .line 22
+    .line 23
+    return-object p1
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+.end method

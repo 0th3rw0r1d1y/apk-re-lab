@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="?attr/tcx_textPrimary"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/StyleX.Text.Subtitle.S1.Medium"/>
+    <TextView
+        android:textColor="?attr/tcx_textTertiary"
+        android:id="@+id/key"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        style="@style/StyleX.Text.Caption"/>
+    <TextView
+        android:textColor="?attr/tcx_textTertiary"
+        android:id="@+id/isAlwaysEnabledForAlpha"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Always in test for Alpha or Debug"
+        style="@style/StyleX.Text.Caption"/>
+    <RadioGroup
+        android:id="@+id/variants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

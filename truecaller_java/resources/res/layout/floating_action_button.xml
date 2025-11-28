@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/fab_backdrop"
+        android:background="?attr/fab_backdropColor"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_gravity="end|bottom"
+        android:orientation="vertical"
+        android:id="@+id/fab_menu"
+        android:visibility="invisible"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="end|bottom"
+        android:id="@+id/fab_icon"
+        android:layout_width="@dimen/floating_action_button_size"
+        android:layout_height="@dimen/floating_action_button_size"
+        android:layout_marginBottom="16dp"
+        android:scaleType="center"
+        android:layout_marginEnd="16dp"
+        android:elevation="6dp"/>
+</merge>

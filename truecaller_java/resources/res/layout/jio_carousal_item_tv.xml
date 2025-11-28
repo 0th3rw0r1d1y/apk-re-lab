@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/jio_carousel_bg_selector"
+    android:padding="2dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="0dp"
+    app:cardCornerRadius="4dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/jio_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/imageView"
+            android:tag="@string/jio_native_carousel_image"
+            android:layout_width="114dp"
+            android:layout_height="152dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="Ad Image"/>
+        <TextView
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:tag="@string/jio_native_carousel_title"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:singleLine="true"
+            android:layout_marginHorizontal="2dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_conversation_actions_height"
+    android:drawablePadding="@dimen/quadrupleSpace"
+    android:paddingStart="@dimen/doubleSpace"
+    android:paddingEnd="@dimen/doubleSpace"
+    style="@style/StyleX.Text.Body.B1"/>

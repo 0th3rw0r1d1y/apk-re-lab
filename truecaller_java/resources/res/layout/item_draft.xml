@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="68dp"
+    android:layout_height="68dp">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageView"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@null"/>
+    <ImageView
+        android:layout_gravity="end|top"
+        android:id="@+id/closeButton"
+        android:visibility="gone"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/draft_remove_button"
+        android:contentDescription="@string/StrRemove"
+        android:elevation="2dp"/>
+    <ImageView
+        android:layout_gravity="end|top"
+        android:id="@+id/swapButton"
+        android:visibility="gone"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_tcx_swap_16dp"
+        android:contentDescription="@string/StrEdit"
+        android:elevation="2dp"
+        android:outlineProvider="paddedBounds"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="bottom"
+        android:id="@+id/videoIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/ic_tcx_event_video_16dp"
+        app:tint="@android:color/white"/>
+</FrameLayout>

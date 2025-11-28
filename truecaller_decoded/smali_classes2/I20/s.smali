@@ -1,0 +1,68 @@
+.class public final LI20/s;
+.super LI20/r;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "LI20/r<",
+        "TK;TV;",
+        "Ljava/util/Map$Entry<",
+        "+TK;+TV;>;>;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final next()Ljava/lang/Object;
+    .locals 4
+
+    .line 1
+    iget v0, p0, LI20/r;->c:I
+
+    .line 2
+    .line 3
+    add-int/lit8 v1, v0, 0x2
+
+    .line 4
+    .line 5
+    iput v1, p0, LI20/r;->c:I
+
+    .line 6
+    .line 7
+    new-instance v1, LI20/baz;
+
+    .line 8
+    .line 9
+    iget-object v2, p0, LI20/r;->a:[Ljava/lang/Object;
+
+    .line 10
+    .line 11
+    aget-object v3, v2, v0
+
+    .line 12
+    .line 13
+    add-int/lit8 v0, v0, 0x1
+
+    .line 14
+    .line 15
+    aget-object v0, v2, v0
+
+    .line 16
+    .line 17
+    invoke-direct {v1, v3, v0}, LI20/baz;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 18
+    .line 19
+    .line 20
+    return-object v1
+    .line 21
+    .line 22
+    .line 23
+.end method

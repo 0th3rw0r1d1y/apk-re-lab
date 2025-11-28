@@ -1,0 +1,108 @@
+.class public final LOs/o$bar;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LOs/o;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lkotlin/jvm/functions/Function0<",
+        "LM0/R0;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:LOs/o$bar;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, LOs/o$bar;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, LOs/o$bar;->a:LOs/o$bar;
+
+    .line 7
+    .line 8
+    return-void
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 3
+
+    .line 1
+    const v0, 0xd0087ff
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-static {v0}, LM0/T0;->b(I)J
+
+    .line 5
+    .line 6
+    .line 7
+    move-result-wide v0
+
+    .line 8
+    new-instance v2, LM0/R0;
+
+    .line 9
+    .line 10
+    invoke-direct {v2, v0, v1}, LM0/R0;-><init>(J)V
+
+    .line 11
+    .line 12
+    .line 13
+    return-object v2
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+.end method

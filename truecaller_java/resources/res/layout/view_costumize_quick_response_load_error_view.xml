@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/customize_quick_response_loading_error_view"
+    android:background="@drawable/ic_tcx_error_bg"
+    android:padding="16dp"
+    android:visibility="gone"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+    <TextView
+        android:textColor="?attr/assistant_onboardingErrorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CallAssistantSettingsQuickResponseFragmentCouldntLoadYourRepliesTitle"
+        style="@style/StyleX.Text.Roboto.Medium.16"/>
+    <TextView
+        android:textColor="?attr/assistant_onboardingErrorTextDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/CallAssistantSettingsQuickResponseFragmentCouldntLoadYourRepliesBody"
+        style="@style/StyleX.Text.Roboto.Regular.12"/>
+    <TextView
+        android:textColor="?attr/tcx_container_blue"
+        android:id="@+id/customize_quick_response_retryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/StrRetry"
+        android:textAllCaps="true"
+        style="@style/StyleX.Text.Roboto.Medium.12"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

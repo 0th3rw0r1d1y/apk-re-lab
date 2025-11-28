@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/question_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp">
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        style="@style/DeactivationQuestion"/>
+    <View
+        android:id="@+id/question_divider"
+        android:background="?attr/deactivation_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/deactivation_divider"/>
+</LinearLayout>

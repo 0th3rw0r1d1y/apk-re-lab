@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="one">Lakkoofsota %d akka spam tti ugguruu &amp; gabaasuu?</item>
+        <item quantity="other">Lakkoofsota %d akka spam tti ugguruu &amp; gabaasuu?</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeleteError">
+        <item quantity="one">Waamicha Gargaaraa kee haquun hin danda&apos;amne. Maaloo irra deebi&apos;ii yaali.</item>
+        <item quantity="other">Waamichoota Gargaaraa kee haquun hin danda&apos;amne. Maaloo irra deebi&apos;ii yaali.</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeletedMessage">
+        <item quantity="one">Waamichi gargaaraa haqameera.</item>
+        <item quantity="other">Waamichoonni gargaaraa haqamaniiru.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsSubtitle">
+        <item quantity="one">Bilbila Gargaaraa kana haquu akka barbaaddu mirkanaa&apos;aa? Tarkaanfiin kun duubatti deebi&apos;uu hin danda&apos;u.</item>
+        <item quantity="other">Bilbiloota Gargaaraa kana haquu akka barbaaddan mirkanaa&apos;aa? Tarkaanfiin kun duubatti deebi&apos;uu hin danda&apos;u.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsTitle">
+        <item quantity="one">Bilbila Gargaaraa kan filame haqaa</item>
+        <item quantity="other">Bilbiloota Gargaaraa kan filame haqaa</item>
+    </plurals>
+    <plurals name="CallRecordingListInitialMessageButton">
+        <item quantity="one">%d waraabbii</item>
+        <item quantity="other">%d waraabbiwwan</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="one">%d waamicha</item>
+        <item quantity="other">%d waamicha</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="one">Ergaan gara caancala Barbaachisaatti dabalame</item>
+        <item quantity="other">Ergaawwan gara caancala Barbaachisaatti dabalaman</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="one">%d haasawa akka dubbifameetti mallatteeffame</item>
+        <item quantity="other">%d haasawa akka dubbifameetti mallatteeffame</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="one">Galteen %d haqame</item>
+        <item quantity="other">Galtee %d haqame</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="one">Galtee haquu?</item>
+        <item quantity="other">Galtee %d haqi?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="one">Haasaa pinned ta&apos;e</item>
+        <item quantity="other">Haasaawwan pinned ta&apos;an</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="one">@string/ConversationSaveContact</item>
+        <item quantity="other">Quunnamtii hunda saagi</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="one">Haasaa unpinned</item>
+        <item quantity="other">Haasaawwan hin pinned</item>
+    </plurals>
+    <plurals name="ConversationUnreadMessageCount">
+        <item quantity="one">%d ergaa hin dubbifamne</item>
+        <item quantity="other">%d ergaawwan hin dubbifamne</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="one">Haasaa %d haquu?</item>
+        <item quantity="other">Haasaa %d haquu?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="one">%d lakkoofsi adda baafame</item>
+        <item quantity="other">%d lakkoofsota adda baafamaniiru</item>
+    </plurals>
+    <plurals name="FraudFlowSpamMessageReportedTitle">
+        <item quantity="one">Ergaan gabaafame</item>
+        <item quantity="other">Ergaawwan gabaafamaniiru</item>
+    </plurals>
+    <plurals name="GroupMemberCount">
+        <item quantity="one">%d miseensa</item>
+        <item quantity="other">%d miseensota</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="one">Lakkoofsa kana unblock gochuu akka barbaaddan mirkaneeffatteettaa?</item>
+        <item quantity="other">Lakkoofsota %d hiikuu akka barbaaddu mirkaneeffatteettaa?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="one">Faayilii afaanii %s haquu akka barbaaddu mirkaneeffatteettaa?</item>
+        <item quantity="other">Faayilota afaan %s haquu akka barbaaddu mirkaneeffatteettaa?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="one">Truecaller • Ergaa uggurame • Ergaan kan ergite tarreeffama ugguraa keessa jira</item>
+        <item quantity="other">Truecaller • Ergaawwan ugguraman • Ergaan kan ergite tarreeffama ugguraa keessa jira</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="one">%1$s sa&apos;aatii dura %2$d waamame. Truecaller keessatti ilaaluuf tuqi</item>
+        <item quantity="other">%1$s sa&apos;aatii dura %2$d waamame. Truecaller keessatti ilaaluuf tuqi</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="one">%d quunnamtii</item>
+        <item quantity="other">%d quunnamtii</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="one">%1$d dabalataa</item>
+        <item quantity="other">%1$d dabalataa</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="one">%d qunnamtii biroo</item>
+        <item quantity="other">%d quunnamtii biroo</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="one">Lakkoofsi tarree ugguraa irratti dabalame</item>
+        <item quantity="other">%d lakkoofsota tarree ugguraa irratti dabalaman</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="one">%d bilbila ittifame</item>
+        <item quantity="other">%d bilbilawwan ittifaman</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="one">%d bilbila akka hin dhagahamne godhame</item>
+        <item quantity="other">%d bilbilawwan akka hin dhagahamne godhaman</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="one">%1$d guyyaa yaaliin bilisaa maamiltoota haaraa qofaaf</item>
+        <item quantity="other">%1$d guyyoota yaaliin bilisaa maamiltoota haaraa qofaaf</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialMonthLabel">
+        <item quantity="one">%1$d ji&apos;a yaaliin bilisaa maamiltoota haaraa qofaaf</item>
+        <item quantity="other">%1$d ji&apos;oota yaaliin bilisaa maamiltoota haaraa qofaaf</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialYearLabel">
+        <item quantity="one">%1$d waggaa yaaliin bilisaa maamiltoota haaraa qofaaf</item>
+        <item quantity="other">%1$d waggaa yaaliin bilisaa maamiltoota haaraa qofaaf</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNames">
+        <item quantity="one">Ati, %1$s fi %2$s Maatii Premium dha . %3$d bakka argamu hafe qabda</item>
+        <item quantity="other">Ati, %1$s fi %2$s Maatii Premium dha . %3$d bakka jiran kan hafe qabda</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNoticeWhenNotEmpty">
+        <item quantity="one">Herrega %1$d caalu qabda.</item>
+        <item quantity="other">Akkaawuntii %1$d caalu qabda.</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsOneMember">
+        <item quantity="one">Ati fi %1$s Premium dha . %2$d bakka argamu hafe qabda</item>
+        <item quantity="other">Ati fi %1$s Premium dha . Bakka jiran %2$d hafe qabda</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingExpiryText">
+        <item quantity="one">Subscription boru ni xumurama</item>
+        <item quantity="other">Maallaqni maallaqaan bitamuu guyyoota %d keessatti xumurama</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimer">
+        <item quantity="one">%1$d guyyaa yaali bilisaa sana booda %2$s.</item>
+        <item quantity="other">%1$d guyyoota yaali bilisaa sana booda %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerMonth">
+        <item quantity="one">%1$d ji&apos;a yaali bilisaa sana booda %2$s.</item>
+        <item quantity="other">%1$d ji&apos;oota yaali bilisaa sana booda %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerYear">
+        <item quantity="one">%1$d waggaa yaaliin bilisaa sana booda %2$s.</item>
+        <item quantity="other">%1$d waggaa yaali bilisaa sana booda %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriod">
+        <item quantity="one">%1$d guyyaa Yaali Bilisaa sana booda</item>
+        <item quantity="other">%1$d guyyoota Yaali Bilisaa sana booda</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodMonth">
+        <item quantity="one">%1$d ji&apos;a Yaali Bilisaa sana booda</item>
+        <item quantity="other">%1$d ji&apos;oota Yaaliin Bilisaa sana booda</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodYear">
+        <item quantity="one">%1$d Waggaa Yaali Bilisaa sana booda</item>
+        <item quantity="other">%1$d Waggaa Free Trial sana booda</item>
+    </plurals>
+    <plurals name="PremiumRemoveFamilySharingDisclaimer">
+        <item quantity="one">Lakkoofsi gulaallii tarree maatii, miseensota maatii haquu, daangeffamaadha. %1$d gulaaluu hafe.</item>
+        <item quantity="other">Lakkoofsi gulaallii tarree maatii, miseensota maatii haquu, daangeffamaadha. %1$d gulaallii hafe.</item>
+    </plurals>
+    <plurals name="PremiumUserTabWsfmCardLabel">
+        <item quantity="one">1 mul&apos;ata barbaacha haaraa</item>
+        <item quantity="other">%1$d mul&apos;annoo barbaacha haaraa</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="one">profaayilii kan ilaale 1</item>
+        <item quantity="other">pirofaayilii kan ilaale %1$d dha</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="one">Dhiheenya kana namni tokko profile kee ilaaleera</item>
+        <item quantity="other">%1$d namoonni piroofaayila kee dhiheenya kana ilaalan</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="one">Namni wayii %2$s irraa pirofaayilii kee ilaalera</item>
+        <item quantity="other">%1$d namoonni (%3$d %2$s) keessaa pirofaayilii kee ilaalaniiru</item>
+    </plurals>
+    <plurals name="ReverseOtpVerificationSendSmsCountdownText">
+        <item quantity="one">Ergaa gabaabaa %1$d sekondii keessatti ofumaan ni ergama…</item>
+        <item quantity="other">Ergaan gabaabaan kun ofumaan sekondii %1$d keessatti ni ergama…</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="one">%1$s &lt;b&gt; + %2$d caalaa &lt;/b&gt;</item>
+        <item quantity="other">%1$s &lt;b&gt; + %2$d caalaa &lt;/b&gt;</item>
+    </plurals>
+    <plurals name="StrPluraWeek">
+        <item quantity="one">torbee</item>
+        <item quantity="other">torbanitti</item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="one">guyyaa %1$s</item>
+        <item quantity="other">guyyoota %1$s</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="one">ji&apos;a</item>
+        <item quantity="other">ji’oota</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="one">waggaa</item>
+        <item quantity="other">waggoota</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="one">Ergaan urjii irraa kaafameera</item>
+        <item quantity="other">Ergaawwan urjii irraa kaafamaniiru</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="one">Daangaa yaaliiwwan mirkaneessuu darbiteetta. Maaloo sa&apos;aatii %d keessatti irra deebi&apos;ii yaali</item>
+        <item quantity="other">Daangaa yaaliiwwan mirkaneessuu darbiteetta. Maaloo sa&apos;aatii %d keessatti irra deebi&apos;ii yaali</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeCountBanner">
+        <item quantity="one">%d mul&apos;ata barbaacha haaraa!</item>
+        <item quantity="other">%d mul&apos;ata barbaacha haaraa!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNonPremiumDesc">
+        <item quantity="one">%d mul&apos;ata barbaacha!</item>
+        <item quantity="other">%d mul&apos;ata barbaacha!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationText">
+        <item quantity="one">Profaayilli kee yeroo dhiyootti bu&apos;aa barbaacha keessatti %1$d</item>
+        <item quantity="other">Profaayilli kee yeroo dhiyootti bu&apos;aa barbaacha keessatti %1$d</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationTitle">
+        <item quantity="one">%1$d mul&apos;ata barbaacha dhiheenya kana</item>
+        <item quantity="other">%1$d mul&apos;annoo barbaacha dhiheenya kana</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="one">Namni tokko profile kee ilaale</item>
+        <item quantity="other">%1$d namoonni piroofaayila kee ilaalan</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitleWithName">
+        <item quantity="one">%1$s piroofaayila kee ilaaleera</item>
+        <item quantity="other">%1$s fi %2$s caalaa piroofaayilii kee ilaale</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="one">%1$d namni %2$s irraa pirofaayilii kee ilaalera</item>
+        <item quantity="other">%1$d namoonni (%2$s keessaa 1) pirofaayilii kee ilaalera</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithNameLocationTitle">
+        <item quantity="one">%1$s %2$s irraa pirofaayilii kee ilaalera</item>
+        <item quantity="other">%1$s %2$s fi %3$s heddu pirofayilii kee ilaalaniiru</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="one">Namni 1 profile kee ilaaleera. Caalaatti argattu.</item>
+        <item quantity="other">%1$d namoonni piroofaayila kee ilaalan. Caalaatti argattu.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="one">%2$s irraa namni 1 piroofaayila kee ilaaleera. Caalaatti argattu.</item>
+        <item quantity="other">%1$d namoonni ( %3$d %2$s keessatti) piroofaayilii kee ilaalan. Caalaatti argattu.</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="one">reCaptcha yeroo baayyee kufe. mee sa&apos;aatii %1$d keessatti irra deebi&apos;ii yaali</item>
+        <item quantity="other">reCaptcha yeroo baayyee kufe. mee sa&apos;aatii %1$d keessatti irra deebi&apos;ii yaali</item>
+    </plurals>
+    <plurals name="acs_view_profile_comments">
+        <item quantity="one">yaada kennuu</item>
+        <item quantity="other">yaada kenna</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="one">%s haasawa kuufameera</item>
+        <item quantity="other">%s haasawa kuufame</item>
+    </plurals>
+    <plurals name="bannerMessagesOrganized">
+        <item quantity="one">%d ergaan qindaa&apos;e</item>
+        <item quantity="other">%d ergaawwan qindaa&apos;an</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="one">Waraabbii %1$d haqame</item>
+        <item quantity="other">Waraabbii %1$d haqame</item>
+    </plurals>
+    <plurals name="contact_editor_save_number_plural">
+        <item quantity="one">Lakkoofsa quunnamtii jirutti saagi</item>
+        <item quantity="other">Lakkoofsa quunnamtii jirutti saagi</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count">
+        <item quantity="one">%1d waamicha</item>
+        <item quantity="other">%1d waamicha</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count_day">
+        <item quantity="one">guyyaa %1d</item>
+        <item quantity="other">guyyoota %1d</item>
+    </plurals>
+    <plurals name="familyprotect_partial_invite_success_failed_invites_title">
+        <item quantity="one">%d affeerraan kufe</item>
+        <item quantity="other">%d affeerraawwan kufaniiru</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_offer">
+        <item quantity="one">Offer haqame</item>
+        <item quantity="other">Dhiyeessiin haqame</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="one">Ergaan OTP haqame</item>
+        <item quantity="other">Ergaawwan OTP haqamaniiru</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="one">Ergaan beeksisa haqame</item>
+        <item quantity="other">Ergaawwan beeksisa haqaman</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="one">Ergaan spam haqame</item>
+        <item quantity="other">Ergaawwan spam haqamaniiru</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="one">%d ergaa</item>
+        <item quantity="other">Ergaawwan %d</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_offer">
+        <item quantity="one">%d Ergaa dhiyeessii waliin</item>
+        <item quantity="other">%d Ergaawwan dhiyeessii waliin</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="one">%d OTP</item>
+        <item quantity="other">%d OTPwwan</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="one">%d ergaa spam</item>
+        <item quantity="other">%d ergaawwan spam</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="one">%d ergaan haqame</item>
+        <item quantity="other">%d ergaawwan haqamaniiru</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="one">Afeerraa</item>
+        <item quantity="other">Waamicha</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="one">Faayilota filataman fi ergaa walqabatan haquuf jirta</item>
+        <item quantity="other">Faayilota filataman fi ergaawwan %d wajjin walqabatan haquuf jirta</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="one">Ergaa haquu?</item>
+        <item quantity="other">Ergaa haquu?</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="one">hiriyaa</item>
+        <item quantity="other">hiriyoota</item>
+    </plurals>
+    <plurals name="reactions_notification_summary_title">
+        <item quantity="one">%d deebii haaraa</item>
+        <item quantity="other">%d deebii haaraa</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="one">guyyaa</item>
+        <item quantity="other">guyyoota</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_hours">
+        <item quantity="one">Sa&apos;aatii %1$d keessatti xumurama</item>
+        <item quantity="other">Sa&apos;aatii %1$d keessatti xumurama</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_minutes">
+        <item quantity="one">Daqiiqaa %1$d keessatti xumurama</item>
+        <item quantity="other">Daqiiqaa %1$d keessatti xumurama</item>
+    </plurals>
+    <plurals name="scam_feed_comment_label_text">
+        <item quantity="one">yaada kennuu</item>
+        <item quantity="other">yaada kenna</item>
+    </plurals>
+    <plurals name="scam_feed_notification_activity_text">
+        <item quantity="one">Maxxansa irratti yaada haaraa %1$d jira</item>
+        <item quantity="other">Maxxansa irratti yaadoota haaraa %1$d jiru</item>
+    </plurals>
+    <plurals name="scam_feed_profile_comment_label_text">
+        <item quantity="one">Yaada kennuu</item>
+        <item quantity="other">Yaadoota</item>
+    </plurals>
+    <plurals name="scam_feed_profile_post_label_text">
+        <item quantity="one">Maxxansa</item>
+        <item quantity="other">Maxxansoota</item>
+    </plurals>
+    <plurals name="scam_feed_share_comment_count">
+        <item quantity="one">Yaada %s</item>
+        <item quantity="other">%s yaada kenna</item>
+    </plurals>
+    <plurals name="scam_feed_view_reply_count">
+        <item quantity="one">Deebii %s ilaali</item>
+        <item quantity="other">Deebiiwwan %s ilaali</item>
+    </plurals>
+    <plurals name="settings_call_assistant_settings_delete_your_voice_dialog_body">
+        <item quantity="one">Sagalee dijiitaalaa kee haquun Gargaaraa kee fi deebii isaa hunda irraa ni haqa.&lt;br&gt;&lt;b&gt;Hub: Sagalee dijiitaalaa kee uumuuf yaalii %d dabalataa ni qabaatta&lt;/b&gt;</item>
+        <item quantity="other">Sagalee dijiitaalaa kee haquun Gargaaraa kee fi deebii isaa hunda irraa ni haqa.&lt;br&gt;&lt;b&gt;Hub: Sagalee dijiitaalaa kee uumuuf yaaliiwwan %d dabalataa ni qabaatta&lt;/b&gt;</item>
+    </plurals>
+    <plurals name="spotlight_who_searched_for_me_description">
+        <item quantity="one">dhiheenya kana piroofaayila keessan barbaade</item>
+        <item quantity="other">+ %s namoonni baay&apos;een dhiheenya kana piroofaayila kee barbaadaniiru</item>
+    </plurals>
+    <plurals name="spotlight_who_viewed_me_description">
+        <item quantity="one">dhiheenya kana piroofaayila keessan ilaaleera</item>
+        <item quantity="other">+ %s namoonni baay&apos;een dhiheenya kana piroofaayila kee ilaalan</item>
+    </plurals>
+    <plurals name="throttled_limit_title">
+        <item quantity="one">Saa&apos;aatii %d keessatti irra deebi&apos;ii yaali</item>
+        <item quantity="other">Saa&apos;aatii %d keessatti irra deebi&apos;ii yaali</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="one">%s haasawa hin kuufamin</item>
+        <item quantity="other">%s haasawa hin kuufamin</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="one">Ergaan nu qaqqabe</item>
+        <item quantity="other">Ergaawwan dhiyaatan</item>
+    </plurals>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/jio_nativeborder" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.4">
+            <FrameLayout android:id="@id/native_icon_layout" android:tag="@string/jio_native_icon_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.7" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/fb_media_view" android:tag="@string/jio_native_media_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/jio_black" android:ellipsize="end" android:gravity="center" android:id="@id/jio_tv_title" android:tag="@string/jio_native_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_weight="0.5" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/jio_black" android:ellipsize="end" android:gravity="center" android:id="@id/jio_tv_desc" android:tag="@string/jio_native_description" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.4">
+            <Button android:ellipsize="end" android:id="@id/jio_cta" android:tag="@string/jio_native_cta" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_margin="16.0dip" android:text="Install Now" android:lines="1" android:textAlignment="center" style="@style/style_jio_button_infeed" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="start|center|top" android:orientation="horizontal" android:id="@id/jio_adChoiceLayout" android:tag="@string/jio_native_adchoice_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="8.0sp" android:textColor="@color/jio_black" android:layout_gravity="center" android:id="@id/jio_sponsored" android:tag="@string/jio_sponsored" android:background="@drawable/jio_nativebg_ad" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="15.0dip" android:layout_height="15.0dip" android:text="@string/jio_advertisment_text" android:layout_marginEnd="1.0dip" />
+    </LinearLayout>
+</RelativeLayout>

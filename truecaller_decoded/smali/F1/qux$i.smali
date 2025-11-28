@@ -1,0 +1,104 @@
+.class public final LF1/qux$i;
+.super Lkotlin/jvm/internal/q;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = LF1/qux;-><init>(Landroid/content/Context;Lt0/v;ILX0/qux;Landroid/view/View;Le1/s0;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/q;",
+        "Lkotlin/jvm/functions/Function0<",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final e:LF1/qux$i;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, LF1/qux$i;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, v1}, Lkotlin/jvm/internal/q;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    sput-object v0, LF1/qux$i;->e:LF1/qux$i;
+
+    .line 8
+    .line 9
+    return-void
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method

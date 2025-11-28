@@ -1,0 +1,154 @@
+.class public final Lcom/truecaller/content/storage/PreferencesUnified$i;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/truecaller/content/storage/PreferencesUnified;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "i"
+.end annotation
+
+
+# instance fields
+.field public final a:Ljava/util/concurrent/atomic/AtomicInteger;
+
+.field public final b:Ljava/util/concurrent/atomic/AtomicInteger;
+
+.field public final c:Ljava/util/concurrent/atomic/AtomicInteger;
+
+.field public final d:Ljava/util/concurrent/atomic/AtomicInteger;
+
+.field public final e:Ljava/util/concurrent/atomic/AtomicInteger;
+
+.field public final f:Ljava/util/concurrent/atomic/AtomicInteger;
+
+.field public final g:Ljava/util/concurrent/atomic/AtomicInteger;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 5
+    .line 6
+    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
+
+    .line 7
+    .line 8
+    .line 9
+    iput-object v0, p0, Lcom/truecaller/content/storage/PreferencesUnified$i;->a:Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 10
+    .line 11
+    new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 12
+    .line 13
+    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
+
+    .line 14
+    .line 15
+    .line 16
+    iput-object v0, p0, Lcom/truecaller/content/storage/PreferencesUnified$i;->b:Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 17
+    .line 18
+    new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 19
+    .line 20
+    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
+
+    .line 21
+    .line 22
+    .line 23
+    iput-object v0, p0, Lcom/truecaller/content/storage/PreferencesUnified$i;->c:Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 24
+    .line 25
+    new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 26
+    .line 27
+    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
+
+    .line 28
+    .line 29
+    .line 30
+    iput-object v0, p0, Lcom/truecaller/content/storage/PreferencesUnified$i;->d:Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 31
+    .line 32
+    new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 33
+    .line 34
+    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
+
+    .line 35
+    .line 36
+    .line 37
+    iput-object v0, p0, Lcom/truecaller/content/storage/PreferencesUnified$i;->e:Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 38
+    .line 39
+    new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 40
+    .line 41
+    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
+
+    .line 42
+    .line 43
+    .line 44
+    iput-object v0, p0, Lcom/truecaller/content/storage/PreferencesUnified$i;->f:Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 45
+    .line 46
+    new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 47
+    .line 48
+    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
+
+    .line 49
+    .line 50
+    .line 51
+    iput-object v0, p0, Lcom/truecaller/content/storage/PreferencesUnified$i;->g:Ljava/util/concurrent/atomic/AtomicInteger;
+
+    .line 52
+    .line 53
+    return-void
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+.end method

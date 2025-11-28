@@ -1,0 +1,6 @@
+package nW;
+
+/* renamed from: nW.qux, reason: case insensitive filesystem */
+/* loaded from: classes10.dex */
+public final /* synthetic */ class C20384qux {
+}

@@ -1,0 +1,103 @@
+.class public final synthetic Lcom/truecaller/wizard/verification/y;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/content/DialogInterface$OnClickListener;
+
+
+# instance fields
+.field public final synthetic a:Lcom/truecaller/wizard/verification/A;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/truecaller/wizard/verification/A;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/truecaller/wizard/verification/y;->a:Lcom/truecaller/wizard/verification/A;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/content/DialogInterface;I)V
+    .locals 0
+
+    .line 1
+    const-string p1, "ChangeNumber"
+
+    .line 2
+    .line 3
+    iget-object p2, p0, Lcom/truecaller/wizard/verification/y;->a:Lcom/truecaller/wizard/verification/A;
+
+    .line 4
+    .line 5
+    invoke-virtual {p2, p1}, Lcom/truecaller/wizard/verification/A;->Sw(Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {p2}, Landroidx/fragment/app/Fragment;->getParentFragment()Landroidx/fragment/app/Fragment;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p1
+
+    .line 12
+    instance-of p2, p1, Lcom/truecaller/wizard/verification/A$bar;
+
+    .line 13
+    .line 14
+    if-eqz p2, :cond_0
+
+    .line 15
+    .line 16
+    check-cast p1, Lcom/truecaller/wizard/verification/A$bar;
+
+    .line 17
+    .line 18
+    goto :goto_0
+
+    .line 19
+    :cond_0
+    const/4 p1, 0x0
+
+    .line 20
+    :goto_0
+    if-eqz p1, :cond_1
+
+    .line 21
+    .line 22
+    invoke-interface {p1}, Lcom/truecaller/wizard/verification/A$bar;->Q0()V
+
+    .line 23
+    .line 24
+    .line 25
+    :cond_1
+    return-void
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+.end method

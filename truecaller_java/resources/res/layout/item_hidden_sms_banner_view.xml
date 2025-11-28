@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/smsPermissionBannerView"
+    android:background="@drawable/background_hidden_sms_banner_rect"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bannerIcon"
+        android:background="@drawable/background_hidden_sms_banner"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="center"
+        android:tint="?attr/tcx_alertBackgroundOrange"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_tcx_sms_24dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:ellipsize="end"
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/enableSpamProtectionForSmsBannerTitle"
+        android:maxLines="2"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bannerIcon"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/StyleX.Text.Subtitle.S2"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/enableSpamProtectionForSmsBannerSubtitle"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bannerIcon"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        style="@style/StyleX.Text.Caption"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

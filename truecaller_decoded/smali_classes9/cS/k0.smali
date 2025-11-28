@@ -1,0 +1,79 @@
+.class public final synthetic LcS/k0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/widget/CompoundButton$OnCheckedChangeListener;
+
+
+# instance fields
+.field public final synthetic a:Lcom/truecaller/settings/impl/ui/general/GeneralSettingsFragment;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/truecaller/settings/impl/ui/general/GeneralSettingsFragment;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LcS/k0;->a:Lcom/truecaller/settings/impl/ui/general/GeneralSettingsFragment;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onCheckedChanged(Landroid/widget/CompoundButton;Z)V
+    .locals 0
+
+    .line 1
+    const-string p2, "<unused var>"
+
+    .line 2
+    .line 3
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object p1, p0, LcS/k0;->a:Lcom/truecaller/settings/impl/ui/general/GeneralSettingsFragment;
+
+    .line 7
+    .line 8
+    invoke-virtual {p1}, Lcom/truecaller/settings/impl/ui/general/GeneralSettingsFragment;->Tw()Lcom/truecaller/settings/impl/ui/general/qux;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p1
+
+    .line 12
+    sget-object p2, LeS/b$baz;->a:LeS/b$baz;
+
+    .line 13
+    .line 14
+    invoke-virtual {p1, p2}, Lcom/truecaller/settings/impl/ui/general/qux;->q(LeS/b;)V
+
+    .line 15
+    .line 16
+    .line 17
+    return-void
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+.end method

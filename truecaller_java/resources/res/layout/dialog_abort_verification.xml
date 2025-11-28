@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="start|center_vertical"
+    android:orientation="vertical"
+    android:padding="@dimen/doubleSpace"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="16sp"
+        android:textColor="?attr/tc_color_textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verification_back_pressed_alert_title"/>
+    <TextView
+        android:textSize="20sp"
+        android:textColor="?attr/tc_color_textPrimary"
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto_medium"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="?attr/tc_color_textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/verification_back_pressed_alert_message"
+        android:fontFamily="@font/roboto_regular"/>
+</LinearLayout>

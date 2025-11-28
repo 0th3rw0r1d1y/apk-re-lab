@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/background_tcx_ads_promo_container"
+    android:padding="1dp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ads_promo_container_height"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp">
+    <include
+        android:layout_gravity="center"
+        android:id="@+id/adPlaceholder"
+        android:background="?attr/tcx_backgroundPrimary"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/ad_tcx_native_promo_placeholder"/>
+    <com.truecaller.ads.ui.AdsContainerLight
+        android:layout_gravity="center"
+        android:id="@+id/adContainer"
+        android:background="?attr/tcx_backgroundPrimary"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

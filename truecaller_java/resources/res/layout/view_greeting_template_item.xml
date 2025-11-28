@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="12sp"
+    android:textColor="@color/assistant_greeting_template_chip_text"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_assistant_greeting_template_chip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/roboto_medium"
+    android:layout_marginHorizontal="4dp"
+    android:paddingHorizontal="11dp"
+    android:paddingVertical="7dp"/>

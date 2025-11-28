@@ -1,0 +1,32 @@
+package com.os.mediationsdk.sdk;
+
+import com.os.mediationsdk.logger.IronSourceError;
+
+/* loaded from: classes5.dex */
+public interface RewardedVideoSmashListener {
+    void onRewardedVideoAdClicked();
+
+    void onRewardedVideoAdClosed();
+
+    void onRewardedVideoAdEnded();
+
+    void onRewardedVideoAdOpened();
+
+    void onRewardedVideoAdRewarded();
+
+    void onRewardedVideoAdShowFailed(IronSourceError ironSourceError);
+
+    void onRewardedVideoAdStarted();
+
+    void onRewardedVideoAdVisible();
+
+    void onRewardedVideoAvailabilityChanged(boolean z11);
+
+    void onRewardedVideoInitFailed(IronSourceError ironSourceError);
+
+    void onRewardedVideoInitSuccess();
+
+    void onRewardedVideoLoadFailed(IronSourceError ironSourceError);
+
+    void onRewardedVideoLoadSuccess();
+}

@@ -1,0 +1,43 @@
+package com.razorpay;
+
+import android.graphics.Bitmap;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+
+/* loaded from: classes6.dex */
+class PrimaryWebViewClient extends WebViewClient {
+    int maxRetryCount = 2;
+    CheckoutPresenter presenter;
+
+    public PrimaryWebViewClient(CheckoutPresenter checkoutPresenter) {
+        this.presenter = checkoutPresenter;
+    }
+
+    @Override // android.webkit.WebViewClient
+    public void onPageFinished(WebView webView, String str) {
+        this.presenter.onPageFinished(1, webView, str);
+    }
+
+    @Override // android.webkit.WebViewClient
+    public void onPageStarted(WebView webView, String str, Bitmap bitmap) {
+        webView.setTag(str);
+        this.presenter.onPageStarted(1, webView, str);
+    }
+
+    @Override // android.webkit.WebViewClient
+    public void onReceivedError(WebView webView, int i11, String str, String str2) {
+        if (!str.contains("NAME_NOT_RESOLVED")) {
+            this.presenter.destroyActivity(2, str);
+        } else if (this.maxRetryCount <= 0) {
+            this.presenter.showLoaderDialog(2, str);
+        } else {
+            this.presenter.loadForm("");
+            this.maxRetryCount--;
+        }
+    }
+
+    @Override // android.webkit.WebViewClient
+    public boolean shouldOverrideUrlLoading(WebView webView, String str) {
+        return false;
+    }
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="280dp">
+    <TextView
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:text="Method Tracing"/>
+    <CheckBox
+        android:id="@+id/sampling_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:checked="true"
+        android:text="Enable sampling"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:hint="Sampling interval (μs)">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/sampling_interval_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1000"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_gravity="end"
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space"
+        android:text="Start"
+        android:paddingStart="@dimen/space"
+        android:paddingEnd="@dimen/space"/>
+</LinearLayout>

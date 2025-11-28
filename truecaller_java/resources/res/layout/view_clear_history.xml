@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="14sp"
+    android:gravity="start|center_vertical"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/control_hexaspace"
+    android:foreground="@drawable/background_clear_global_history"
+    android:text="@string/clear_history"
+    android:paddingStart="@dimen/control_enneaspace"
+    android:paddingEnd="@dimen/control_extraspace"
+    style="@style/StyleX.Button.Small.Action"/>

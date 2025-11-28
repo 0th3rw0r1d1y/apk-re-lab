@@ -1,0 +1,71 @@
+.class public final LCR/x;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LBR/bar;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "LBR/bar<",
+        "Lcom/truecaller/settings/impl/ui/about/AboutSettings;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final a(LzR/c;LBR/baz$bar;)Ljava/lang/Object;
+    .locals 0
+    .param p1    # LzR/c;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # LBR/baz$bar;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Lorg/jetbrains/annotations/Nullable;
+    .end annotation
+
+    .line 1
+    sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+
+    .line 2
+    .line 3
+    return-object p1
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+.end method

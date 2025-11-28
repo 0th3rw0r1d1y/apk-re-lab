@@ -1,0 +1,13 @@
+package com.facebook.ads.redexgen.X;
+
+/* renamed from: com.facebook.ads.redexgen.X.3N, reason: invalid class name */
+/* loaded from: assets/audience_network.dex */
+public class C3N {
+
+    /* renamed from: A00, reason: collision with root package name */
+    public float f92160A00;
+    public float A01;
+    public int A02;
+    public Object A03;
+    public boolean A04;
+}

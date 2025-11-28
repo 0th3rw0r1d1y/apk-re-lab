@@ -1,0 +1,57 @@
+.class public final LMA/o;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lu10/c;
+
+
+# direct methods
+.method public static a(LFj/g;LOA/h;)LOA/y;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    const-string p0, "featuresRegistry"
+
+    .line 5
+    .line 6
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 7
+    .line 8
+    .line 9
+    check-cast p1, LOA/y;
+
+    .line 10
+    .line 11
+    invoke-static {p1}, Lu10/b;->b(Ljava/lang/Object;)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-object p1
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+.end method

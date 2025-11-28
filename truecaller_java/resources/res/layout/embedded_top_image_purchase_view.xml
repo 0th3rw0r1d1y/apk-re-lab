@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/background_embedded_top_image_purchase_view"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/promoBannerView"
+            android:visibility="visible"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@null"/>
+        <com.truecaller.premium.ui.subscription.buttons.SubscriptionButtonView
+            android:id="@+id/buyBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:subscriptionButtonAutoSize="false"
+            app:subscriptionButtonBackground="@drawable/ripple_tcx_subscription_button_highlighted"
+            app:subscriptionButtonLayout="@layout/layout_tcx_embedded_subscription_button_highlighted"
+            app:subscriptionButtonMinHeight="@dimen/premium_features_pricing_button_height_highlighted"/>
+    </LinearLayout>
+    <TextView
+        android:textColor="?attr/tcx_textTertiary"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/disclaimerLabel"
+        android:paddingTop="8dp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/StyleX.Text.Caption"/>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="16dp">
+    <TextView
+        android:textSize="28sp"
+        android:textColor="#eff1f1"
+        android:gravity="center"
+        android:id="@+id/softThrottledCallerIdTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acs_soft_throttled_caller_id_title"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="#b3ffffff"
+        android:gravity="center"
+        android:id="@+id/softThrottledCallerIdSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/acs_soft_throttled_caller_id_subtitle"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="62dp"/>
+</LinearLayout>

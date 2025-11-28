@@ -1,0 +1,74 @@
+.class public final Ltruecaller/enterprise/verifiedflows/v1/Public$GetCampaignsForUser$Response$baz;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Ltruecaller/enterprise/verifiedflows/v1/Public$GetCampaignsForUser$Response;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "baz"
+.end annotation
+
+
+# static fields
+.field public static final a:Lcom/google/protobuf/MapEntryLite;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/google/protobuf/MapEntryLite<",
+            "Ljava/lang/String;",
+            "Ltruecaller/enterprise/verifiedflows/v1/Public$Campaign;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 4
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/WireFormat$FieldType;->STRING:Lcom/google/protobuf/WireFormat$FieldType;
+
+    .line 2
+    .line 3
+    sget-object v1, Lcom/google/protobuf/WireFormat$FieldType;->MESSAGE:Lcom/google/protobuf/WireFormat$FieldType;
+
+    .line 4
+    .line 5
+    invoke-static {}, Ltruecaller/enterprise/verifiedflows/v1/Public$Campaign;->getDefaultInstance()Ltruecaller/enterprise/verifiedflows/v1/Public$Campaign;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v2
+
+    .line 9
+    const-string v3, ""
+
+    .line 10
+    .line 11
+    invoke-static {v0, v3, v1, v2}, Lcom/google/protobuf/MapEntryLite;->newDefaultInstance(Lcom/google/protobuf/WireFormat$FieldType;Ljava/lang/Object;Lcom/google/protobuf/WireFormat$FieldType;Ljava/lang/Object;)Lcom/google/protobuf/MapEntryLite;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v0
+
+    .line 15
+    sput-object v0, Ltruecaller/enterprise/verifiedflows/v1/Public$GetCampaignsForUser$Response$baz;->a:Lcom/google/protobuf/MapEntryLite;
+
+    .line 16
+    .line 17
+    return-void
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+.end method

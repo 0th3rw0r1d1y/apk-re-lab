@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="?attr/tcx_backgroundPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="320dp"
+    android:windowSoftInputMode="adjustPan">
+    <TextView
+        android:textColor="?attr/tcx_textSecondary"
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Insights SMS Tester"
+        android:textAlignment="center"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        style="@style/StyleX.Text.Headline.H5"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="32dp"
+        android:hint="Enter Address"
+        style="@style/StyleX.Input.Outline">
+        <com.google.android.material.textfield.TextInputEditText
+            android:textColor="?attr/tcx_textPrimary"
+            android:id="@+id/addressString"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="32dp"
+        android:hint="Enter Message"
+        style="@style/StyleX.Input.Outline">
+        <com.google.android.material.textfield.TextInputEditText
+            android:textColor="?attr/tcx_textPrimary"
+            android:id="@+id/messageString"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.button.MaterialButton
+        android:layout_gravity="center"
+        android:id="@+id/createNotifButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:text="Create Notification"
+        android:textAlignment="center"
+        style="@style/StyleX.Button.Primary"/>
+</LinearLayout>

@@ -1,0 +1,105 @@
+.class public final LYz/w0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/Comparator;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Ljava/util/Comparator;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;TT;)I"
+        }
+    .end annotation
+
+    .line 1
+    check-cast p1, Lcom/truecaller/familyprotect/uicomponents/models/FamilyParticipantModel;
+
+    .line 2
+    .line 3
+    iget-object p1, p1, Lcom/truecaller/familyprotect/uicomponents/models/FamilyParticipantModel;->d:Lcom/truecaller/familyprotect/uicomponents/models/FamilyParticipantModel$Role;
+
+    .line 4
+    .line 5
+    sget-object v0, Lcom/truecaller/familyprotect/uicomponents/models/FamilyParticipantModel$Role;->MEMBER:Lcom/truecaller/familyprotect/uicomponents/models/FamilyParticipantModel$Role;
+
+    .line 6
+    .line 7
+    const/4 v1, 0x0
+
+    .line 8
+    const/4 v2, 0x1
+
+    .line 9
+    if-ne p1, v0, :cond_0
+
+    .line 10
+    .line 11
+    move p1, v2
+
+    .line 12
+    goto :goto_0
+
+    .line 13
+    :cond_0
+    move p1, v1
+
+    .line 14
+    :goto_0
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object p1
+
+    .line 18
+    check-cast p2, Lcom/truecaller/familyprotect/uicomponents/models/FamilyParticipantModel;
+
+    .line 19
+    .line 20
+    iget-object p2, p2, Lcom/truecaller/familyprotect/uicomponents/models/FamilyParticipantModel;->d:Lcom/truecaller/familyprotect/uicomponents/models/FamilyParticipantModel$Role;
+
+    .line 21
+    .line 22
+    if-ne p2, v0, :cond_1
+
+    .line 23
+    .line 24
+    move v1, v2
+
+    .line 25
+    :cond_1
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    .line 26
+    .line 27
+    .line 28
+    move-result-object p2
+
+    .line 29
+    invoke-static {p1, p2}, Lj20/baz;->b(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
+
+    .line 30
+    .line 31
+    .line 32
+    move-result p1
+
+    .line 33
+    return p1
+.end method

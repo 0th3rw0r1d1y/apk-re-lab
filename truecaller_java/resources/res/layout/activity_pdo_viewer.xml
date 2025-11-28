@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Pdo Viewer"
+            app:titleTextColor="?attr/tcx_textPrimary"/>
+        <TextView
+            android:textColor="?attr/tcx_textSecondary"
+            android:id="@+id/result"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/StyleX.Text.Body.B1"/>
+        <Button
+            android:id="@+id/copy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Copy"
+            style="@style/StyleX.Button"/>
+        <TextView
+            android:id="@+id/applyFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="applyFilterOnPdo: "
+            style="@style/StyleX.Text.Body.B1"/>
+        <Button
+            android:id="@+id/openAddressFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Open address Filter"
+            style="@style/StyleX.Button"/>
+    </LinearLayout>
+</ScrollView>

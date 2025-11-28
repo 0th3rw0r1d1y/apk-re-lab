@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/content_view_big"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include
+        android:id="@+id/rel_lyt"
+        layout="@layout/content_view_small_multi_line_msg"/>
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:minHeight="196dp"
+        android:inAnimation="@anim/pt_slide_in_right"
+        android:outAnimation="@anim/pt_slide_out_left"
+        android:layout_weight="1"
+        android:autoStart="true"/>
+    <include
+        android:id="@+id/action_buttons"
+        layout="@layout/action_buttons"/>
+</LinearLayout>

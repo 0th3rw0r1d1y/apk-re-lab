@@ -1,0 +1,43 @@
+package com.facebook.ads.redexgen.X;
+
+import com.airbnb.deeplinkdispatch.MetadataMasks;
+import java.util.Arrays;
+
+/* loaded from: assets/audience_network.dex */
+public enum KH {
+    A04(0),
+    A0C(1),
+    A07(2),
+    A0A(3),
+    A08(4),
+    A0B(5),
+    A03(6),
+    A09(7),
+    A05(8),
+    A06(9);
+
+    public static byte[] A01;
+
+    /* renamed from: A00, reason: collision with root package name */
+    public int f92867A00;
+
+    public static String A00(int i11, int i12, int i13) {
+        byte[] bArrCopyOfRange = Arrays.copyOfRange(A01, i11, i11 + i12);
+        for (int i14 = 0; i14 < bArrCopyOfRange.length; i14++) {
+            bArrCopyOfRange[i14] = (byte) ((bArrCopyOfRange[i14] ^ i13) ^ 7);
+        }
+        return new String(bArrCopyOfRange);
+    }
+
+    public static void A01() {
+        A01 = new byte[]{85, 93, 64, 68, 73, 79, 81, 83, 68, 89, 70, 89, 68, 89, 85, 67, 79, 66, 85, 86, 92, 85, 83, 68, 89, 95, 94, 38, 36, 47, 36, 51, 40, 34, 62, 36, 51, 51, 46, 51, 102, 107, 127, 100, 105, 98, 111, 120, 117, 108, 101, 127, 100, 110, 117, 107, 122, 99, 24, 27, 37, 40, 60, 39, 42, 33, 44, 59, 54, 47, 38, 60, 39, 45, 54, 59, 44, 47, 37, 44, 42, 61, MetadataMasks.ConfigurablePathSegmentMask, 38, 39, 59, 58, 42, 52, 54, 33, 60, 35, 60, 33, 44, 42, 38, 48, 39, 35, 60, 54, 48, 67, 66, 82, 65, 76, 88, 67, 78, 69, 72, 95, 82, 75, 66, 88, 67, 73, 82, 76, 93, 68, 63, 60, MetadataMasks.ConfigurablePathSegmentMask, 33, 49, 34, 47, 59, MetadataMasks.ConfigurablePathSegmentMask, 45, 38, 43, 60, 49, 40, 33, 59, MetadataMasks.ConfigurablePathSegmentMask, 42, 49, 60, 43, 40, 34, 43, 45, 58, 39, 33, MetadataMasks.ConfigurablePathSegmentMask, 91, 90, 74, 71, 64, 91, 91, 92, 91, 82, 74, 65, 84, 70, 94, 70, 102, 125, 100, 100, 119, 105, 107, 124, 97, 126, 97, 124, 97, 109, 123, 119, 122, 109, 110, 100, 109, 107, 124, 97, 103, 102, 72, 83, 74, 74, 89, 69, 73, 72, 82, 67, 94, 82};
+    }
+
+    static {
+        A01();
+    }
+
+    KH(int i11) {
+        this.f92867A00 = i11;
+    }
+}

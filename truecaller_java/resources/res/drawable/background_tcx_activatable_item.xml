@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="4dp"
+        android:top="2dp"
+        android:right="4dp"
+        android:bottom="2dp">
+        <selector>
+            <item android:state_activated="true">
+                <shape>
+                    <solid android:color="?attr/tcx_backgroundActivated"/>
+                    <corners android:radius="8dp"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item android:drawable="?attr/selectableItemBackground"/>
+</layer-list>

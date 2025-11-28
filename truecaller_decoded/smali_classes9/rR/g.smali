@@ -1,0 +1,62 @@
+.class public final synthetic LrR/g;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    check-cast p1, LTA/v;
+
+    .line 2
+    .line 3
+    check-cast p2, Ljava/lang/Boolean;
+
+    .line 4
+    .line 5
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    .line 6
+    .line 7
+    .line 8
+    const-string v0, "$this$BooleanFiltersBackupSetting"
+
+    .line 9
+    .line 10
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-interface {p1, p2}, LTA/v;->y(Ljava/lang/Boolean;)V
+
+    .line 14
+    .line 15
+    .line 16
+    sget-object p1, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    .line 17
+    .line 18
+    return-object p1
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+.end method

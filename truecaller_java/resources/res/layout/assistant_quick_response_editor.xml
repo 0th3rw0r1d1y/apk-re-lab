@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/tcx_backgroundTertiary"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:animateLayoutChanges="true"
+    android:elevation="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+    <EditText
+        android:textColorHint="?attr/tcx_textPrimary"
+        android:id="@+id/user_input"
+        android:background="@null"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="@string/call_assistant_quick_response_editor_hint"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/send"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/StyleX.Text.Roboto.Regular.16"/>
+    <ImageView
+        android:id="@+id/send"
+        android:background="@drawable/call_assistant_call_ui_custom_response_send_background"
+        android:padding="10dp"
+        android:visibility="invisible"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="@dimen/space"
+        android:src="@drawable/ic_tcx_action_send_24dp"
+        android:contentDescription="@null"
+        android:backgroundTint="?attr/tcx_container_blue"
+        app:chainUseRtl="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/user_input"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="?attr/tcx_backgroundPrimary"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

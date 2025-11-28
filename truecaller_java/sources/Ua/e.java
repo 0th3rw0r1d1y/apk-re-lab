@@ -1,0 +1,93 @@
+package Ua;
+
+import com.inmobi.commons.core.configs.AdConfig;
+import java.nio.charset.Charset;
+
+/* loaded from: classes5.dex */
+public final class e {
+
+    /* renamed from: a, reason: collision with root package name */
+    public static final Charset f58628a = Charset.forName("UTF-8");
+
+    public static abstract class bar {
+    }
+
+    public static class baz extends bar {
+
+        /* renamed from: a, reason: collision with root package name */
+        public static final int[] f58629a = {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 62, -1, -1, -1, 63, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, -1, -1, -1, -2, -1, -1, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, -1, -1, -1, -1, -1, -1, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1};
+    }
+
+    public static class qux extends bar {
+
+        /* renamed from: a, reason: collision with root package name */
+        public static final byte[] f58630a = {65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 43, 47};
+    }
+
+    /* JADX WARN: Code restructure failed: missing block: B:55:0x00e2, code lost:
+    
+        if (r6 != 4) goto L59;
+     */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct add '--show-bad-code' argument
+    */
+    public static byte[] a(java.lang.String r15) {
+        /*
+            Method dump skipped, instructions count: 269
+            To view this dump add '--comments-level debug' option
+        */
+        throw new UnsupportedOperationException("Method not decompiled: Ua.e.a(java.lang.String):byte[]");
+    }
+
+    public static byte[] b(byte[] bArr) {
+        byte[] bArr2;
+        int length = bArr.length;
+        int i11 = (length / 3) * 4;
+        if (length % 3 > 0) {
+            i11 += 4;
+        }
+        byte[] bArr3 = new byte[i11];
+        int i12 = 0;
+        int i13 = 0;
+        int i14 = -1;
+        while (true) {
+            int i15 = i12 + 3;
+            bArr2 = qux.f58630a;
+            if (i15 > length) {
+                break;
+            }
+            int i16 = (bArr[i12 + 2] & AdConfig.NETWORK_LOAD_LIMIT_DISABLED) | ((bArr[i12] & AdConfig.NETWORK_LOAD_LIMIT_DISABLED) << 16) | ((bArr[i12 + 1] & AdConfig.NETWORK_LOAD_LIMIT_DISABLED) << 8);
+            bArr3[i13] = bArr2[(i16 >> 18) & 63];
+            bArr3[i13 + 1] = bArr2[(i16 >> 12) & 63];
+            bArr3[i13 + 2] = bArr2[(i16 >> 6) & 63];
+            bArr3[i13 + 3] = bArr2[i16 & 63];
+            int i17 = i13 + 4;
+            i14--;
+            if (i14 == 0) {
+                i13 += 5;
+                bArr3[i17] = 10;
+                i14 = 19;
+            } else {
+                i13 = i17;
+            }
+            i12 = i15;
+        }
+        if (i12 == length - 1) {
+            int i18 = (bArr[i12] & AdConfig.NETWORK_LOAD_LIMIT_DISABLED) << 4;
+            bArr3[i13] = bArr2[(i18 >> 6) & 63];
+            bArr3[i13 + 1] = bArr2[i18 & 63];
+            bArr3[i13 + 2] = 61;
+            bArr3[i13 + 3] = 61;
+            return bArr3;
+        }
+        if (i12 == length - 2) {
+            int i19 = ((bArr[i12 + 1] & AdConfig.NETWORK_LOAD_LIMIT_DISABLED) << 2) | ((bArr[i12] & AdConfig.NETWORK_LOAD_LIMIT_DISABLED) << 10);
+            bArr3[i13] = bArr2[(i19 >> 12) & 63];
+            bArr3[i13 + 1] = bArr2[(i19 >> 6) & 63];
+            bArr3[i13 + 2] = bArr2[i19 & 63];
+            bArr3[i13 + 3] = 61;
+        }
+        return bArr3;
+    }
+}
